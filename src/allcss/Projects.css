@@ -1,0 +1,18 @@
+.Projects{
+    font-family: 'Cinzel', serif;
+}
+.div {
+    width: 300px;
+    height: 300px;
+    background-color: black ;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    display: inline-block;
+    text-align: center;
+    margin: 6px;
+  
+}
+.tableOfProjects{
+    margin-left: auto;
+    margin-right: auto;
+}

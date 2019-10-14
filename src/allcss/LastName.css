@@ -1,0 +1,11 @@
+.LastName {
+    margin-top: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 100px;
+    backface-visibility: hidden;
+    opacity: 1;
+    transform: translateX(31.1134px);
+    text-align: center;
+    width: 50%;
+    height: 50%;
+  }

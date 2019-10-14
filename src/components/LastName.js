@@ -1,8 +1,8 @@
 import React from 'react';
-import '../allcss/Home.css';
+import '../allcss/LastName.css';
 import lax from 'lax.js';
 import ReactDOM from 'react-dom';
-class Home extends React.Component {
+class LastName extends React.Component {
     constructor(props) {
         super(props)
         lax.setup()
@@ -24,13 +24,13 @@ class Home extends React.Component {
     // React components are simple functions that take in props and state, and render HTML
     render() {
         return (
-            <div className='homeName' data-lax-translate-x="vh -100, -elh 100" data-lax-anchor="self" data-lax-opacity="-131 0, -130 1, 608 1, 609 0">
-                <p>Brenda</p>
-                
+            <div className='LastName' data-lax-translate-x="vh 100, -elh -100" data-lax-anchor="self" data-lax-opacity="-131 0, -130 1, 608 1, 609 0">
+               
+                <p>Vielmas</p>  
             </div>
        );
     }
   }
   
  
-  export default Home;
+  export default LastName;

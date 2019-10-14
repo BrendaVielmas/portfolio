@@ -1,0 +1,10 @@
+.Menu {
+    width: 99%;
+	left: 0; 
+	top: 0; 
+    position: fixed;
+}
+
+.button {
+    padding: 0px;
+}
