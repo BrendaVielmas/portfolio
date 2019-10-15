@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../allcss/App.css';
 import Menu from './Menu';
-import Home from './Home';
+import Name from './Name';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div>
       <Menu/>
-      <Home/>
+      <Name/>
       <LastName/>
       <About/>
       <Projects/>

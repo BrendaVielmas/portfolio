@@ -21,7 +21,6 @@ class LastName extends React.Component {
     componentWillUnmount() {
         lax.removeElement(this.el)
       }
-    // React components are simple functions that take in props and state, and render HTML
     render() {
         return (
             <div className='LastName' data-lax-translate-x="vh 100, -elh -100" data-lax-anchor="self" data-lax-opacity="-131 0, -130 1, 608 1, 609 0">

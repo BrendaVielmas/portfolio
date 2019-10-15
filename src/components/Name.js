@@ -1,8 +1,8 @@
 import React from 'react';
-import '../allcss/Home.css';
+import '../allcss/Name.css';
 import lax from 'lax.js';
 import ReactDOM from 'react-dom';
-class Home extends React.Component {
+class Name extends React.Component {
     constructor(props) {
         super(props)
         lax.setup()
@@ -33,4 +33,4 @@ class Home extends React.Component {
   }
   
  
-  export default Home;
+  export default Name;
