@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 import LastName from './LastName';
+import AboutPhoto from './AboutPhoto';
 
 class App extends React.Component {
   render(){
@@ -16,6 +17,7 @@ class App extends React.Component {
       <Name/>
       <LastName/>
       <About/>
+      <AboutPhoto/>
       <Projects/>
       <Contact/>
       </div>

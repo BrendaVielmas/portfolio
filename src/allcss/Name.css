@@ -1,11 +1,17 @@
 .homeName {
-  margin-top: 10px;
+  margin: 0 0 0 50px;
   font-family: 'Libre Baskerville', serif;
-  font-size: 100px;
+  font-size: 200px;
   backface-visibility: hidden;
   opacity: 1;
   transform: translateX(31.1134px);
   text-align: left;
-  width: 50%;
+  width: 6500px;
   height: 50%;
+  border: 0;
+  padding: 0;
+  }
+
+  p{
+    margin: 0;
   }
