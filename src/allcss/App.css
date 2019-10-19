@@ -25,9 +25,9 @@
 
 button {
   font-family: 'Libre Baskerville', serif;
-  color: 000000;
-  background-color: #ffffff;
-  border: 2px #ffffff;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px #000000;
   margin: 5px;
   padding: 5px;
 }

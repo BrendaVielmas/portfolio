@@ -23,10 +23,10 @@ class LastName extends React.Component {
       }
     render() {
         return (
-            <div className='LastName' data-lax-translate-x="vh -20, -elh 1400" data-lax-anchor="self" data-lax-opacity="-131 0, -130 1, 608 1, 609 0">
+            <div className='lastName'>
                
                
-                <p>Vielmas</p>  
+                <p className='realLastName'>Vielmas</p>  
             </div>
        );
     }

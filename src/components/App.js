@@ -8,18 +8,20 @@ import Projects from './Projects';
 import Contact from './Contact';
 import LastName from './LastName';
 import AboutPhoto from './AboutPhoto';
+import Skills from './Skills';
 
 class App extends React.Component {
   render(){
     return (
       <div>
-      <Menu/>
-      <Name/>
-      <LastName/>
-      <About/>
-      <AboutPhoto/>
-      <Projects/>
-      <Contact/>
+        <Menu/>
+        <Name/>
+        <LastName/>
+        <About/>
+        <AboutPhoto/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
       </div>
     )
   }

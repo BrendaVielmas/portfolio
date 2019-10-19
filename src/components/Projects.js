@@ -8,14 +8,14 @@ class Projects extends React.Component {
         <div className="Projects" id="projectsSection">
           <h1>projects</h1>
           <div className='tableOfProjects'>
-                <div className="div">Cipher Code</div>
-                <div className="div">Data Lovers</div>
-                <div className="div">Social Network</div>
+                <div className="projectCard">Cipher Code</div>
+                <div className="projectCard">Data Lovers</div>
+                <div className="projectCard">Social Network</div>
               
-                <div className="div">Lab Notes</div>
-                <div className="div">Movie Challenge</div>
-                <div className="div">MD-links</div>
-                <div className="div">Burger Queen</div>
+                <div className="projectCard">Lab Notes</div>
+                <div className="projectCard">Movie Challenge</div>
+                <div className="projectCard">MD-links</div>
+                <div className="projectCard">Burger Queen</div>
           </div>
         </div>
       )

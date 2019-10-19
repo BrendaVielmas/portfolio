@@ -1,0 +1,24 @@
+.skillsDiv{
+    margin-bottom: 7%;
+}
+.skills{
+    width: 50%;
+    font-family: 'Cinzel', serif;
+    margin: 2% 0 0 2%;
+    
+}
+.imgSkills {
+    width: 65px;
+    height: 55px;
+    margin: 85%;
+}
+.skillsGroup{
+   margin-left: auto;
+   margin-right: auto;
+   
+   
+    }
+.skillName{
+    font-family: 'Libre Baskerville', serif;
+    
+}

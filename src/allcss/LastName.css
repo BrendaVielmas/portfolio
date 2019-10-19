@@ -1,18 +1,13 @@
-.LastName {
-    margin: 0 0 0 20px;
+.lastName {
+    margin: 0 0 0 0;
     font-family: 'Libre Baskerville', serif;
-    font-size: 200px;
-    backface-visibility: hidden;
-    opacity: 1;
-    transform: translateX(31.1134px);
+    font-size: 1200%;
     text-align: center;
-    width: 50%;
-    height: 80%;
     border: 0;
-    margin-bottom: 100px;
+    margin-bottom: 8%;
   }
 
-  p{
+  .realLastName{
     margin-top: 1%;
     margin-bottom: 10%;
   }

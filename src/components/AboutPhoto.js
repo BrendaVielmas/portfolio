@@ -23,10 +23,9 @@ class profilePhoto extends React.Component {
       }
     render() {
         return (
-            <div className='profilePhoto' data-lax-translate-x="vh -100, -elh 100" data-lax-anchor="self" data-lax-opacity="-131 0, -130 1, 608 1, 609 0">
-               
-                <img src={photo}/> 
-            </div>
+             
+                <img className='profilePhoto' src={photo}/> 
+            
        );
     }
   }
