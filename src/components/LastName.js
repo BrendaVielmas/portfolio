@@ -1,7 +1,8 @@
 import React from 'react';
 import '../allcss/LastName.css';
 import lax from 'lax.js';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
+import vPhoto from '../images/Bien/v.jpg';;
 class LastName extends React.Component {
     constructor(props) {
         super(props)
@@ -22,11 +23,11 @@ class LastName extends React.Component {
         lax.removeElement(this.el)
       }
     render() {
+        //data-lax-translate-x="vh 0, -elh (vw*1)" data-lax-anchor="self" style={{"backface-visibility": "hidden"}, {"transform": "translateX(351.698)"}}
         return (
-            <div className='lastName'>
-               
-               
-                <p className='realLastName'>Vielmas</p>  
+            <div className='lastName'  data-lax-translate-x="0 0, vh -vw">
+                <img className='vPhoto' src={vPhoto}/> 
+                <p className='realLastName'>ielmas</p>  
             </div>
        );
     }

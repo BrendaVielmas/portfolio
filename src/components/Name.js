@@ -24,9 +24,9 @@ class Name extends React.Component {
     // React components are simple functions that take in props and state, and render HTML
     render() {
         return (
-            <div className='homeName'>
-                <p className='realName'>Brenda</p>
-                
+            <div className='homeName'  data-lax-translate-y="0 0, vh -vw">
+                <p className='realName' >Brenda</p>
+               
             </div>
        );
     }

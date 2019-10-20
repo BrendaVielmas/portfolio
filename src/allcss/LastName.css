@@ -8,6 +8,11 @@
   }
 
   .realLastName{
+    display: inline-block;
     margin-top: 1%;
     margin-bottom: 10%;
+  }
+  .vPhoto{
+    width: 15rem;
+    height: 15rem;
   }

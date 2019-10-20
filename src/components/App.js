@@ -13,7 +13,7 @@ import Skills from './Skills';
 class App extends React.Component {
   render(){
     return (
-      <div>
+      <div style={{"overflow": "hidden"}}>
         <Menu/>
         <Name/>
         <LastName/>
