@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cecd30fb.chunk.css",
-    "main.js": "/portfolio/static/js/main.e0cb7721.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e0cb7721.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.8976b19a.chunk.css",
+    "main.js": "/portfolio/static/js/main.399480dc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.399480dc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6c1b9ebb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6c1b9ebb.js.map",
-    "static/js/2.5181a191.chunk.js": "/portfolio/static/js/2.5181a191.chunk.js",
-    "static/js/2.5181a191.chunk.js.map": "/portfolio/static/js/2.5181a191.chunk.js.map",
+    "static/js/2.f181b415.chunk.js": "/portfolio/static/js/2.f181b415.chunk.js",
+    "static/js/2.f181b415.chunk.js.map": "/portfolio/static/js/2.f181b415.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.f18619680b234139bc2378888117eda2.js": "/portfolio/precache-manifest.f18619680b234139bc2378888117eda2.js",
+    "precache-manifest.08aca0631e41104c55c50a2a85eb1c1d.js": "/portfolio/precache-manifest.08aca0631e41104c55c50a2a85eb1c1d.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.cecd30fb.chunk.css.map": "/portfolio/static/css/main.cecd30fb.chunk.css.map",
+    "static/css/main.8976b19a.chunk.css.map": "/portfolio/static/css/main.8976b19a.chunk.css.map",
     "static/media/angular.png": "/portfolio/static/media/angular.f2d690a9.png",
     "static/media/css.svg": "/portfolio/static/media/css.bbe29a6c.svg",
     "static/media/git.png": "/portfolio/static/media/git.0bcb32c6.png",
@@ -20,6 +20,7 @@
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.785df544.png",
     "static/media/npm.svg": "/portfolio/static/media/npm.a363d0b9.svg",
     "static/media/profile.jpg": "/portfolio/static/media/profile.3a542e4f.jpg",
-    "static/media/react.png": "/portfolio/static/media/react.14c89a41.png"
+    "static/media/react.png": "/portfolio/static/media/react.14c89a41.png",
+    "static/media/v.jpg": "/portfolio/static/media/v.64e63645.jpg"
   }
 }
