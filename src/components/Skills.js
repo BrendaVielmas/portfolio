@@ -10,6 +10,7 @@ import JsonLogo from '../images/Skills/json.png';
 import MongoDBLogo from '../images/Skills/mongodb.png';
 import NpmLogo from '../images/Skills/npm.svg';
 import ReactLogo from '../images/Skills/react.png';
+import lax from 'lax.js';
 
 
 
@@ -17,7 +18,7 @@ class Skills extends React.Component {
 
     render(){
       return (
-        <div className="skillsDiv" id="skillsSection">
+        <div id="skillsSection">
             <h1 className="skills">skills</h1>
             <table className="skillsGroup" >
                 <tr>
