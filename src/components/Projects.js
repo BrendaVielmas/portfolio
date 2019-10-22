@@ -1,7 +1,8 @@
 import React from 'react';
 import '../allcss/Projects.css';
 import lax from 'lax.js';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+
 
 class Projects extends React.Component {
 
@@ -28,7 +29,8 @@ componentWillUnmount() {
       return (
  
         <div data-lax-scale="(vh*0.1) 1, -elh 0.5" data-lax-anchor="self" className="Projects" id="projectsSection">
-          <h1>projects</h1>
+          <h1 className="titleProjects">projects</h1>
+        
           <div className='tableOfProjects'>
                 <div className="projectCard">Cipher Code</div>
                 <div className="projectCard">Data Lovers</div>

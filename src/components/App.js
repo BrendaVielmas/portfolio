@@ -10,6 +10,8 @@ import LastName from './LastName';
 import AboutPhoto from './AboutPhoto';
 import Skills from './Skills';
 import ContactImg from './ContactImg';
+import ChangeImg from './ChangeImg';
+
 
 class App extends React.Component {
   render(){
@@ -20,6 +22,7 @@ class App extends React.Component {
         <LastName/>
         <About/>
         <AboutPhoto/>
+        <ChangeImg/>
         <Skills/>
         <Projects/>
         <Contact/>

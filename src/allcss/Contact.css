@@ -1,6 +1,6 @@
 .Contact{
     font-family: 'Cinzel', serif;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 30px;
     border: 0;
     width: 50%;
     float: left;
@@ -8,17 +8,17 @@
 }
 
 .contactTable{
-    margin-left: auto;
+    margin-left: 50%;
     margin-right: auto;
     margin-bottom: 10%;
 }
 .imgContact {
     width: 50px;
     height: 50px;
-    margin: 1% 1% 1% 1%;
+    margin: 120% 1% 1% 1%;
    
 }
 .link{
     font-family: 'Libre Baskerville', serif;
-    margin: 25% 2% 2% 2%;
+    margin: 30% 2% 2% 2%;
 }

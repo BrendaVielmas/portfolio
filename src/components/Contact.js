@@ -29,7 +29,7 @@ componentWillUnmount() {
     render(){
       return (
         
-        <div data-lax-skew-y="(vh) -30, -elh 42" data-lax-anchor="self" className="Contact" id="contactSection">
+        <div data-lax-skew-y="(vh) -30, -elh 40" data-lax-anchor="self" className="Contact" id="contactSection">
             <h1>contact</h1>
             <table className="contactTable">
               <tr className="github">

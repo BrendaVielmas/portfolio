@@ -37,8 +37,9 @@ componentWillUnmount() {
 
 
     render(){
+      //data-lax-translate-x="800 vw, -200 0, -400 0, -900 -vw" data-lax-anchor="self"
       return (
-        <div data-lax-translate-x="800 vw, -200 0, -400 0, -900 -vw" data-lax-anchor="self" id="skillsSection">
+        <div data-lax-translate-y="vh*2 -200, 0 0" data-lax-anchor="self" id="skillsSection">
             <h1 className="skills">skills</h1>
             <table className="skillsGroup" >
                 <tr>

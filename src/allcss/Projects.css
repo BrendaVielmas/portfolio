@@ -2,6 +2,7 @@
     font-family: 'Cinzel', serif;
     margin: 0 0 0 1.5%;
 }
+
 .projectCard {
     width: 25%;
     height: 300px;
@@ -14,7 +15,6 @@
   
 }
 .tableOfProjects{
-    
     margin-left: auto;
     margin-right: auto;
 }
