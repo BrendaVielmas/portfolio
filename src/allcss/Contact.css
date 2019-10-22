@@ -1,7 +1,10 @@
 .Contact{
     font-family: 'Cinzel', serif;
     margin: 0 0 0 20px;
-  
+    border: 0;
+    width: 50%;
+    float: left;
+    
 }
 
 .contactTable{
@@ -12,7 +15,7 @@
 .imgContact {
     width: 50px;
     height: 50px;
-    margin: 100% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
    
 }
 .link{

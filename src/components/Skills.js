@@ -11,14 +11,34 @@ import MongoDBLogo from '../images/Skills/mongodb.png';
 import NpmLogo from '../images/Skills/npm.svg';
 import ReactLogo from '../images/Skills/react.png';
 import lax from 'lax.js';
+import ReactDOM from 'react-dom';
 
 
 
 class Skills extends React.Component {
+  constructor(props) {
+    super(props)
+    lax.setup()
+
+    document.addEventListener('scroll', function(x) {
+        lax.update(window.scrollY)
+    }, false)
+
+    lax.update(window.scrollY)
+}
+componentDidMount() {
+    this.el = ReactDOM.findDOMNode(this)
+    lax.addElement(this.el)
+}
+
+componentWillUnmount() {
+    lax.removeElement(this.el)
+  }
+
 
     render(){
       return (
-        <div id="skillsSection">
+        <div data-lax-translate-x="800 vw, -200 0, -400 0, -900 -vw" data-lax-anchor="self" id="skillsSection">
             <h1 className="skills">skills</h1>
             <table className="skillsGroup" >
                 <tr>

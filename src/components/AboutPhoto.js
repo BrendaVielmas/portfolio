@@ -23,7 +23,7 @@ class profilePhoto extends React.Component {
       }
     render() {
         return (
-             //data-lax-anchor="self" data-lax-rotate="(vh) 0, (-elh) 402"
+             
              <div >
                  <img className='profilePhoto' src={photo}/> 
              </div>

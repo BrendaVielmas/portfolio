@@ -25,7 +25,9 @@ componentWillUnmount() {
 
     render(){
       return (
-        <div data-lax-preset="linger" className="About" id="aboutSection">
+        <div data-lax-translate-y="vh*2 -200, 0 0" data-lax-anchor="self" className="About" id="aboutSection">
+
+ 
             <h1 >about</h1>
             <p className="intro">I am a Front-end Developer with a degree in Human Resources. You might wonder, what's the relationship
               between both? It may seem like nothing but I believe the best way to know a human being is through

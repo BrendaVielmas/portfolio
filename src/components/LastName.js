@@ -25,7 +25,7 @@ class LastName extends React.Component {
     render() {
         //data-lax-translate-x="vh 0, -elh (vw*1)" data-lax-anchor="self" style={{"backface-visibility": "hidden"}, {"transform": "translateX(351.698)"}}
         return (
-            <div className='lastName'  data-lax-translate-x="0 0, vh -vw">
+            <div className='lastName' data-lax-blur="(vh) 40, (vh*0.8) 0, (vh*0.2) 0, 0 40" data-lax-anchor="self" style={{"backface-visibility": "hidden"}, {"filter": "blur(0)"}}>
                 <img className='vPhoto' src={vPhoto}/> 
                 <p className='realLastName'>ielmas</p>  
             </div>

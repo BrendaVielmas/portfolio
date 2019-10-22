@@ -24,7 +24,10 @@ class Name extends React.Component {
     // React components are simple functions that take in props and state, and render HTML
     render() {
         return (
-            <div className='homeName'  data-lax-translate-y="0 0, vh -vw">
+             // data-lax-translate-y="0 0, vh -vw | speed=0.25">
+        
+            <div className='homeName' data-lax-blur="(vh) 40, (vh*0.8) 0, (vh*0.2) 0, 0 40" data-lax-anchor="self" style={{"backface-visibility": "hidden"}, {"filter": "blur(0)"}}>
+           
                 <p className='realName' >Brenda</p>
                
             </div>

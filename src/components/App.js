@@ -9,6 +9,7 @@ import Contact from './Contact';
 import LastName from './LastName';
 import AboutPhoto from './AboutPhoto';
 import Skills from './Skills';
+import ContactImg from './ContactImg';
 
 class App extends React.Component {
   render(){
@@ -22,6 +23,7 @@ class App extends React.Component {
         <Skills/>
         <Projects/>
         <Contact/>
+        <ContactImg/>
       </div>
     )
   }

@@ -3,12 +3,33 @@ import '../allcss/Contact.css';
 import GithubLogo from '../images/Contact/github.jpg';
 import GmailLogo from '../images/Contact/gmail.png';
 import LinkedInLogo from '../images/Contact/linkedin.png';
+import lax from 'lax.js';
+import ReactDOM from 'react-dom'
 
 class Contact extends React.Component {
+  constructor(props) {
+    super(props)
+    lax.setup()
+
+    document.addEventListener('scroll', function(x) {
+        lax.update(window.scrollY)
+    }, false)
+
+    lax.update(window.scrollY)
+}
+componentDidMount() {
+    this.el = ReactDOM.findDOMNode(this)
+    lax.addElement(this.el)
+}
+
+componentWillUnmount() {
+    lax.removeElement(this.el)
+  }
 
     render(){
       return (
-        <div className="Contact" id="contactSection">
+        
+        <div data-lax-skew-y="(vh) -30, -elh 42" data-lax-anchor="self" className="Contact" id="contactSection">
             <h1>contact</h1>
             <table className="contactTable">
               <tr className="github">
@@ -21,9 +42,9 @@ class Contact extends React.Component {
                 <td><img className="imgContact" src={LinkedInLogo}/></td><p className="link">linkedin.com/in/brendavielmas</p>
               </tr>
             </table>
-            
-            
+         
         </div>
+         
       )
     }
 }
