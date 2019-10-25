@@ -2,6 +2,7 @@ import React from 'react';
 import '../allcss/Projects.css';
 import lax from 'lax.js';
 import ReactDOM from 'react-dom';
+import tvPhoto from '../images/Bien/tv-tony-futura2.png';
 
 
 class Projects extends React.Component {
@@ -27,18 +28,14 @@ componentWillUnmount() {
 
     render(){
       return (
- 
-        <div data-lax-scale="(vh*0.1) 1, -elh 0.5" data-lax-anchor="self" className="Projects" id="projectsSection">
+ // data-lax-scale="(vh*0.1) 1, -elh 0.5" data-lax-anchor="self"
+        <div className="Projects" id="projectsSection">
           <h1 className="titleProjects">projects</h1>
-        
           <div className='tableOfProjects'>
-                <div className="projectCard">Cipher Code</div>
-                <div className="projectCard">Data Lovers</div>
-                <div className="projectCard">Social Network</div>
-                <div className="projectCard">Lab Notes</div>
-                <div className="projectCard">Movie Challenge</div>
-                <div className="projectCard">MD-links</div>
-                <div className="projectCard">Burger Queen</div>
+                <button className="tvCardBtn"><img src={tvPhoto} className="tvCard"/></button>
+                <button className="tvCardBtn"><img src={tvPhoto} className="tvCard"/></button>
+                <button className="tvCardBtn"><img src={tvPhoto} className="tvCard"/></button>
+                <button className="tvCardBtn"><img src={tvPhoto} className="tvCard"/></button>
           </div>
         </div>
       )

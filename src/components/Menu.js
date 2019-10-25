@@ -1,6 +1,7 @@
 import React from 'react';
 import '../allcss/Menu.css';
 import { scrollTo } from './Functions';
+import homePhoto from '../images/Bien/spaguetti-eugenia-loli.png';
 
 class Menu extends React.Component {
   constructor(props) {
@@ -9,6 +10,7 @@ class Menu extends React.Component {
     this.scrollToFunctionSkills = this.scrollToFunctionSkills.bind(this);
     this.scrollToFunctionProjects = this.scrollToFunctionProjects.bind(this);
     this.scrollToFunctionContact = this.scrollToFunctionContact.bind(this);
+    this.goToTheTopBtn = this.goToTheTopBtn.bind(this);
   
   }
   scrollToFunctionAbout(event) {
@@ -23,13 +25,17 @@ class Menu extends React.Component {
   scrollToFunctionContact(event) {
     scrollTo(document.getElementById("contactSection"))
   }
+  goToTheTopBtn(){
+    window.scrollTo(0, 0)
+  }
     render(){
       return (
         <div className="Menu">
-            <button onClick={this.scrollToFunctionAbout}>About</button>
-            <button onClick={this.scrollToFunctionSkills}>Skills</button>
-            <button onClick={this.scrollToFunctionProjects}>Projects</button>
-            <button onClick={this.scrollToFunctionContact}>Contact</button>
+            <button id="homePhoto" className='homePhotoBtn'><img className='homePhoto' onClick={this.goToTheTopBtn} src={homePhoto}/></button>
+            <button className="menuBtn" onClick={this.scrollToFunctionAbout}>About</button>
+            <button className="menuBtn" onClick={this.scrollToFunctionSkills}>Skills</button>
+            <button className="menuBtn"onClick={this.scrollToFunctionProjects}>Projects</button>
+            <button className="menuBtn" onClick={this.scrollToFunctionContact}>Contact</button>
         </div>
       )
     }

@@ -27,7 +27,7 @@ class LastName extends React.Component {
         return (
             <div className='lastName' data-lax-blur="(vh) 40, (vh*0.8) 0, (vh*0.2) 0, 0 40" data-lax-anchor="self" style={{"backface-visibility": "hidden"}, {"filter": "blur(0)"}}>
                 <img className='vPhoto' src={vPhoto}/> 
-                <p className='realLastName'>ielmas</p>  
+                <p className='realLastName'>ielmas.</p>  
             </div>
        );
     }

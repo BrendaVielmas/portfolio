@@ -27,7 +27,7 @@ componentWillUnmount() {
     render(){
       return (
        
-        <div data-lax-translate-x="vh*1 500, (vh*2.8) 500, 0 -500" data-lax-anchor="self" >
+        <div data-lax-translate-x="-vh*1 500, (vh*2.8) 500, 0 -500" data-lax-anchor="self" >
                  <img className='phonePhoto' src={phoneLogo}/> 
              </div>
       )
