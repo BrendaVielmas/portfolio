@@ -4,19 +4,49 @@
 .skills{
     width: 50%;
     font-family: 'Cinzel', serif;
-    margin: 5% 0 5% 2%;
-    
+    margin: 5% 0 5% 2%;    
 }
-.imgSkills {
+
+.angularSkills, .reactSkills, .jsSkills, .htmlSkills {
     width: 65px;
     height: 55px;
-    margin: 85%;
+    left: 0;
+    position: relative;
+    top: 0;
+    margin: 0;
 }
-.imgAngular {
-    animation: 16.5s rot linear infinite;
-    }
-    
-
+.cssSkills, .gitSkills, .mongoSkills {
+    width: 65px;
+    height: 55px;
+    left: 0;
+    position: relative;
+    top: -110px;
+    margin: '50px';
+}
+.jsonSkills, .npmSkills {
+    width: 65px;
+    height: 55px;
+    left: 0;
+    position: relative;
+    top: 110px;
+    margin: 0;
+}
+.firebaseSkills {
+    width: 65px;
+    height: 55px;
+    left: 0;
+    position: relative;
+    top: -210px;   
+    margin: 0;
+}
+.mongoSkills {
+    width: 65px;
+    height: 55px;
+    left: 0;
+    position: relative;
+    top: 210px;   
+    margin: 0;
+}
 .skillsGroup{
    margin-left: auto;
    margin-right: auto;
@@ -24,224 +54,10 @@
 .imgMoon{
     width: 465px;
     height: 455px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .skillName{
     font-family: 'Libre Baskerville', serif;
     
 }
 
-
-
-.skills-circle-wrap{ 
-    width: 400px;
-    height: 400px;  
-    position: relative;
-    margin: 10px auto;
-    pointer-events: fill; 
-    cursor: pointer; 
-  -webkit-transform: perspective(900px);
-  transform: perspective(900px);
-}
-.skills-top-circle{
-    position: absolute;  
-    top:0;left:0;right:0;bottom:0;
-    margin: auto;
-    width: 40px;
-    height: 40px; 
-    border-radius: 50%;    
-    background: #fff;    
-    box-shadow: 0 0 50px #FFEB00;
-}
-.skills-circle{
-    width: 400px;
-    height: 400px;
-    position: absolute;  
-    top:0;left:0;right:0;bottom:0;
-    margin: auto;
-    border-radius: 50%; 
-    transition: 3s all;
-}  
-
-.skill-orbit{
-    border: 1px solid rgba(0,0,0,.2);
-    border-radius: 50%;
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    position: absolute;  
-    top:0;left:0;right:0;bottom:0;
-    margin: auto;  
-  transition: 3s all;
-  transform: perspective(900px);
-}
-.skill-orbit:nth-child(1){
-    width: 200%; height: 200%;   
-}
-.skill-orbit:nth-child(2){
-    width: 192.5%; height: 192.5%; 
-}
-.skill-orbit:nth-child(3){
-    width: 85%; height: 85%;
-}
-.skill-orbit:nth-child(4){
-    width: 77.5%; height: 77.5%;
-}
-.skill-orbit:nth-child(5){
-    width: 65%; height: 65%;
-}
-.skill-orbit:nth-child(5){
-    width: 60%; height: 60%;
-}
-.skill-orbit:nth-child(6){
-    width: 40%; height: 40%;
-}
-.skill-orbit:nth-child(7){
-    width: 30%; height: 30%;
-}
-.skill-orbit:nth-child(8){
-    width: 20%; height: 20%;
-}
-.skill-orbit:nth-child(9){
-    width: 15%; height: 15%;
-}
-.skill-orbit:nth-child(10){
-    width: 10%; height: 10%;
-}
-.skill-planet{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%; 
-    position: absolute;
-    top:-15px;
-    left:0;right:0;
-    margin: 0 auto; 
-    font-family: Arial;
-    font-weight: 100;
-    text-align: center; 
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    transition: 1s all;
-}
-.skill-planet span{
-    display: block;
-}
-
-.skill-orbit:nth-child(1) .skill-planet{
-    -webkit-animation: travelOrbit 10s infinite linear;
-    animation: travelOrbit 10s infinite linear;
-    -webkit-transform-origin: 50% 713%;
-    transform-origin: 50% 713%;
-}
-.skill-orbit:nth-child(1) span{
-    -webkit-animation: unrotate 10s infinite linear;
-    animation: unrotate 10s infinite linear;
-}
-.skill-orbit:nth-child(2) .skill-planet{
-    -webkit-animation: travelOrbit 8s infinite linear;
-    animation: travelOrbit 8s infinite linear;
-    -webkit-transform-origin: 50% 597%;
-    transform-origin: 50% 597%;
-}
-.skill-orbit:nth-child(2) span{
-    -webkit-animation: unrotate 8s infinite linear; 
-    animation: unrotate 8s infinite linear; 
-}
-.skill-orbit:nth-child(3) .skill-planet{
-    -webkit-animation: travelOrbit 6s infinite linear;
-    animation: travelOrbit 6s infinite linear;
-    -webkit-transform-origin: 50% 480%;
-    transform-origin: 50% 480%;
-}
-.skill-orbit:nth-child(3) span{
-    -webkit-animation: unrotate 6s infinite linear; 
-    animation: unrotate 6s infinite linear; 
-}
-.skill-orbit:nth-child(4) .skill-planet{
-    -webkit-animation: travelOrbit 4s infinite linear;
-    animation: travelOrbit 4s infinite linear;
-    -webkit-transform-origin: 50% 363%;
-    transform-origin: 50% 363%;
-}
-.skill-orbit:nth-child(4) span{
-    -webkit-animation: unrotate 4s infinite linear; 
-    animation: unrotate 4s infinite linear; 
-}
-.skill-orbit:nth-child(5) .skill-planet{
-    -webkit-animation: travelOrbit 2s infinite linear;
-    animation: travelOrbit 2s infinite linear;
-    -webkit-transform-origin: 50% 243%;
-    transform-origin: 50% 243%;
-}
-.skill-orbit:nth-child(5) span{
-    -webkit-animation: unrotate 2s infinite linear; 
-    animation: unrotate 2s infinite linear; 
-} 
-.skill-orbit:nth-child(6) .skill-planet{
-    -webkit-animation: travelOrbit 12s infinite linear;
-    animation: travelOrbit 12s infinite linear;
-    -webkit-transform-origin: 50% 650%;
-    transform-origin: 50% 650%;
-}
-.skill-orbit:nth-child(6) span{
-    -webkit-animation: unrotate 12s infinite linear; 
-    animation: unrotate 12s infinite linear; 
-} 
-.skill-orbit:nth-child(7) .skill-planet{
-    -webkit-animation: travelOrbit 2s infinite linear;
-    animation: travelOrbit 2s infinite linear;
-    -webkit-transform-origin: 50% 143%;
-    transform-origin: 50% 143%;
-}
-.skill-orbit:nth-child(7) span{
-    -webkit-animation: unrotate 2s infinite linear; 
-    animation: unrotate 2s infinite linear; 
-} 
-.skill-orbit:nth-child(8) .skill-planet{
-    -webkit-animation: travelOrbit 2s infinite linear;
-    animation: travelOrbit 2s infinite linear;
-    -webkit-transform-origin: 50% 743%;
-    transform-origin: 50% 743%;
-}
-.skill-orbit:nth-child(8) span{
-    -webkit-animation: unrotate 2s infinite linear; 
-    animation: unrotate 2s infinite linear; 
-} 
-.skill-orbit:nth-child(9) .skill-planet{
-    -webkit-animation: travelOrbit 2s infinite linear;
-    animation: travelOrbit 2s infinite linear;
-    -webkit-transform-origin: 50% 843%;
-    transform-origin: 50% 843%;
-}
-.skill-orbit:nth-child(9) span{
-    -webkit-animation: unrotate 2s infinite linear; 
-    animation: unrotate 2s infinite linear; 
-} 
-.skill-orbit:nth-child(10) .skill-planet{
-    -webkit-animation: travelOrbit 10s infinite linear;
-    animation: travelOrbit 10s infinite linear;
-    -webkit-transform-origin: 50% 713%;
-    transform-origin: 50% 713%;
-}
-.skill-orbit:nth-child(10) span{
-    -webkit-animation: unrotate 10s infinite linear;
-    animation: unrotate 10s infinite linear;
-}
-@-webkit-keyframes travelOrbit { 
-    0% { -webkit-transform: rotate(0deg); } 
-    100% { -webkit-transform: rotate(360deg); } 
-} 
-@keyframes travelOrbit { 
-    0% { transform: rotate(0deg); } 
-    100% { transform: rotate(360deg); } 
-}
-
-@-webkit-keyframes unrotate { 
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(-360deg); } 
-}  
-@keyframes unrotate { 
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(-360deg); } 
-} 
 

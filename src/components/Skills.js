@@ -11,15 +11,6 @@ import MongoDBLogo from '../images/Skills/mongodb.png';
 import NpmLogo from '../images/Skills/npm.svg';
 import ReactLogo from '../images/Skills/react.png';
 import Moon from '../images/Skills/moon.png';
-import Neptune from '../images/Skills/neptune.png';
-import Mars from '../images/Skills/mars.png';
-import Earth from '../images/Skills/earth.png';
-import Saturn from '../images/Skills/saturn.png';
-import Sun from '../images/Skills/sun.png';
-import Uranus from '../images/Skills/uranus.png';
-import Jupiter from '../images/Skills/jupiter.png';
-import Venus from '../images/Skills/venus.png';
-import Mercury from '../images/Skills/mercury.png';
 import lax from 'lax.js';
 import ReactDOM from 'react-dom';
 
@@ -51,41 +42,25 @@ componentWillUnmount() {
       return (
         <div data-lax-translate-y="vh*2 -200, 0 0" data-lax-anchor="self" id="skillsSection">
             <h1 className="skills">skills</h1>
-            
-            <div class="skills-circle-wrap">
-
-    <div class="skills-circle">
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={AngularLogo}/></span></div>
-        </div>
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={CssLogo}/></span></div>
-        </div>
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={FirebaseLogo}/></span></div>
-        </div>
-        <div class="skill-orbit"> 
-            <div class="skill-planet"><span><img className="imgSkills" src={GitLogo}/></span></div>
-        </div>
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={JavascriptLogo}/></span></div>
-        </div>
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={JsonLogo}/></span></div>
-        </div>
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={MongoDBLogo}/></span></div>
-        </div>
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={NpmLogo}/></span></div>
-        </div>
-        <div class="skill-orbit">
-            <div class="skill-planet"><span><img className="imgSkills" src={ReactLogo}/></span></div>
-        </div>
-    </div>
-    <div class="skills-top-circle panel"></div>
-</div>
-           
+            <table className="skillsGroup" >
+                <tr>
+                   <img className="angularSkills" src={AngularLogo}/>
+                   <img className="cssSkills" src={CssLogo}/>
+                   <img className="firebaseSkills" src={FirebaseLogo}/>
+                   <img className="gitSkills" src={GitLogo}/>
+                   <img className="htmlSkills" src={HTMLLogo}/>
+                </tr>
+                   <img className="imgMoon" src={Moon}/>
+                <tr>
+                   <img className="jsSkills" src={JavascriptLogo}/>
+                   <img className="jsonSkills" src={JsonLogo}/>
+                   <img className="mongoSkills" src={MongoDBLogo}/>
+                   <img className="npmSkills" src={NpmLogo}/>
+                   <img className="reactSkills" src={ReactLogo}/>
+                </tr>
+                
+            </table>
+                    
 
         </div>
       )
