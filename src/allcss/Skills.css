@@ -1,55 +1,85 @@
-.skillsDiv{
-    margin-bottom: 7%;
-}
+
 .skills{
     width: 50%;
     font-family: 'Cinzel', serif;
     margin: 5% 0 5% 2%;    
+    position: relative;
 }
 
-.angularSkills, .reactSkills, .jsSkills, .htmlSkills {
+.angularSkills {
     width: 65px;
     height: 55px;
-    left: 0;
     position: relative;
-    top: 0;
     margin: 0;
+    float: left;
+    margin: 170px 0 0 50px;
 }
-.cssSkills, .gitSkills, .mongoSkills {
+.jsSkills{
     width: 65px;
     height: 55px;
-    left: 0;
     position: relative;
-    top: -110px;
-    margin: '50px';
-}
-.jsonSkills, .npmSkills {
-    width: 65px;
-    height: 55px;
-    left: 0;
-    position: relative;
-    top: 110px;
     margin: 0;
+    float: left;
+    margin: 0 0 0 50px;
+}
+ .htmlSkills {
+    width: 65px;
+    height: 55px;
+    position: relative;
+    margin: 0;
+    float: right;
+    margin: 70px 100px 0 0;
+}
+.reactSkills {
+    width: 65px;
+    height: 55px;
+    position: relative;
+    margin: 0;
+    float: right;
+    margin: 0 100px 0 0;
+}
+.cssSkills  {
+    width: 65px;
+    height: 55px;
+    position: relative;
+    margin: 0;
+    float: left;
+    margin: 70px 0 0 100px;
+}
+
+.gitSkills  {
+    width: 65px;
+    height: 55px;
+    position: relative;
+    margin: 0;
+    float: right;
+    margin: 140px 160px 0 0;
+}
+
+.jsonSkills {
+    width: 65px;
+    height: 55px;
+    float: left;
+    margin: 50px 0 50px 160px;
+}
+.npmSkills {
+    width: 65px;
+    height: 55px;
+    margin: 50px 0 50px 160px;
 }
 .firebaseSkills {
     width: 65px;
     height: 55px;
-    left: 0;
-    position: relative;
-    top: -210px;   
+    left: 0; 
     margin: 0;
 }
 .mongoSkills {
     width: 65px;
     height: 55px;
-    left: 0;
-    position: relative;
-    top: 210px;   
-    margin: 0;
+    margin: 0 0 0 0;
 }
-.skillsGroup{
-   margin-left: auto;
-   margin-right: auto;
+.skillsTable{
+   text-align: center;
 }
 .imgMoon{
     width: 465px;
@@ -57,7 +87,9 @@
 }
 .skillName{
     font-family: 'Libre Baskerville', serif;
-    
 }
-
+.skillsGroup2, .skillsGroup2{
+    width: 100%;
+    height: 50px;
+}
 

@@ -10,7 +10,7 @@ import JsonLogo from '../images/Skills/json.png';
 import MongoDBLogo from '../images/Skills/mongodb.png';
 import NpmLogo from '../images/Skills/npm.svg';
 import ReactLogo from '../images/Skills/react.png';
-import Moon from '../images/Skills/moon.png';
+import Moon from '../images/Confondo/luna.jpg';
 import lax from 'lax.js';
 import ReactDOM from 'react-dom';
 
@@ -40,26 +40,27 @@ componentWillUnmount() {
     render(){
       //data-lax-translate-x="800 vw, -200 0, -400 0, -900 -vw" data-lax-anchor="self"
       return (
-        <div data-lax-translate-y="vh*2 -200, 0 0" data-lax-anchor="self" id="skillsSection">
+        <div id="skillsSection">
             <h1 className="skills">skills</h1>
-            <table className="skillsGroup" >
-                <tr>
-                   <img className="angularSkills" src={AngularLogo}/>
-                   <img className="cssSkills" src={CssLogo}/>
-                   <img className="firebaseSkills" src={FirebaseLogo}/>
-                   <img className="gitSkills" src={GitLogo}/>
-                   <img className="htmlSkills" src={HTMLLogo}/>
-                </tr>
-                   <img className="imgMoon" src={Moon}/>
-                <tr>
-                   <img className="jsSkills" src={JavascriptLogo}/>
+            <div className="skillsTable" >
+                <ul className="skillsGroup1">
+                    <img className="angularSkills" src={AngularLogo}/>
+                    <img className="cssSkills" src={CssLogo}/>
+                    <img className="firebaseSkills" src={FirebaseLogo}/>
+                    <img className="gitSkills" src={GitLogo}/>
+                    <img className="htmlSkills" src={HTMLLogo}/>
+                </ul>
+               
+                    <img className="imgMoon" src={Moon}/>
+                
+                <ul className="skillsGroup2">
+                <img className="jsSkills" src={JavascriptLogo}/>
                    <img className="jsonSkills" src={JsonLogo}/>
                    <img className="mongoSkills" src={MongoDBLogo}/>
                    <img className="npmSkills" src={NpmLogo}/>
                    <img className="reactSkills" src={ReactLogo}/>
-                </tr>
-                
-            </table>
+                </ul>
+            </div>
                     
 
         </div>
