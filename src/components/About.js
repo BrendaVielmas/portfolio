@@ -35,7 +35,7 @@ componentWillUnmount() {
               (mostly). Do you want to know more about me? 
             </p>
             <p className="intro">I am an organized, empathic, friendly and creative woman who doesn't see a limit when learning. 
-              Really, if I want learn it, I learn it. 
+              Really, if I want to learn it, I learn it. 
               I love concerts, cats, dogs, going to the cinema, traveling, listening to music, 
               reading a good book or talking with good friends, and especially fixing the bugs in my code.
             </p>
