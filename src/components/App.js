@@ -2,32 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../allcss/App.css';
 import Menu from './Menu';
-import Name from './Name';
 import About from './About';
+import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
-import LastName from './LastName';
-import AboutPhoto from './AboutPhoto';
-import Skills from './Skills';
-import ContactImg from './ContactImg';
-import ChangeImg from './ChangeImg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 
 class App extends React.Component {
   render(){
     return (
-      <div style={{"overflow": "hidden"}}>
-        <Menu/>
-        <Name/>
-        <LastName/>
-        <About/>
-        <AboutPhoto/>
-        <ChangeImg/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
-        <ContactImg/>
-      </div>
+      <Router>
+				<div  className="App">
+					<Route exact path="/" component={Menu}/>
+          <Route exact path="/About" component={About}/>
+          <Route exact path="/Skills" component={Skills}/>
+          <Route exact path="/Projects" component={Projects}/>
+          <Route exact path="/Contact" component={Contact}/>
+				</div>
+			</Router>
     )
   }
 }

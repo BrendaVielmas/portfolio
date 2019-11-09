@@ -10,61 +10,36 @@ import JsonLogo from '../images/Skills/json.png';
 import MongoDBLogo from '../images/Skills/mongodb.png';
 import NpmLogo from '../images/Skills/npm.svg';
 import ReactLogo from '../images/Skills/react.png';
-import Moon from '../images/Confondo/luna.jpg';
-import lax from 'lax.js';
-import ReactDOM from 'react-dom';
 
 
 
 class Skills extends React.Component {
-  constructor(props) {
-    super(props)
-    lax.setup()
-
-    document.addEventListener('scroll', function(x) {
-        lax.update(window.scrollY)
-    }, false)
-
-    lax.update(window.scrollY)
-}
-componentDidMount() {
-    this.el = ReactDOM.findDOMNode(this)
-    lax.addElement(this.el)
-}
-
-componentWillUnmount() {
-    lax.removeElement(this.el)
-  }
-
 
     render(){
-      //data-lax-translate-x="800 vw, -200 0, -400 0, -900 -vw" data-lax-anchor="self"
       return (
-        <div id="skillsSection">
+        <div className="skillsComponent" id="skillsSection">
             <h1 className="skills">skills</h1>
-            <div className="skillsTable" >
-                <ul className="skillsGroup1">
-                    <img className="angularSkills" src={AngularLogo}/>
-                    <img className="cssSkills" src={CssLogo}/>
-                    <img className="firebaseSkills" src={FirebaseLogo}/>
-                    <img className="gitSkills" src={GitLogo}/>
-                    <img className="htmlSkills" src={HTMLLogo}/>
-                </ul>
-               
-                    <img className="imgMoon" src={Moon}/>
-                
-                <ul className="skillsGroup2">
-                <img className="jsSkills" src={JavascriptLogo}/>
-                   <img className="jsonSkills" src={JsonLogo}/>
-                   <img className="mongoSkills" src={MongoDBLogo}/>
-                   <img className="npmSkills" src={NpmLogo}/>
-                   <img className="reactSkills" src={ReactLogo}/>
-                </ul>
-            </div>
-                    
+            <table className="skillsGroup" >
+                <tr>
+                  <td><img className="imgSkills" src={AngularLogo}/></td><p className="skillName">Angular</p>
+                  <td><img className="imgSkills" src={CssLogo}/></td><p className="skillName">Css</p>
+                  <td><img className="imgSkills" src={FirebaseLogo}/></td><p className="skillName">Firebase</p>
+                  <td><img className="imgSkills" src={GitLogo}/></td><p className="skillName">Git</p>
+                  <td><img className="imgSkills" src={HTMLLogo}/></td><p className="skillName">Html</p>
+                </tr>
+                <tr>
+                  <td><img className="imgSkills" src={JavascriptLogo}/></td><p className="skillName">Javascript</p>
+                  <td><img className="imgSkills" src={JsonLogo}/></td><p className="skillName">Json</p>
+                  <td><img className="imgSkills" src={MongoDBLogo}/></td><p className="skillName">MongoDB</p>
+                  <td><img className="imgSkills" src={NpmLogo}/></td><p className="skillName">Npm</p>
+                  <td><img className="imgSkills" src={ReactLogo}/></td><p className="skillName">React</p>
+                </tr>
+
+            </table>
+
 
         </div>
       )
     }
 }
-  export default Skills;
+  export default Skills; 

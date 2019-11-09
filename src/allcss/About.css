@@ -1,12 +1,18 @@
-.About {
-    text-align: justify;
-    width: 50%;
+h1 {
     font-family: 'Cinzel', serif;
+    text-align: justify;
+    margin: 3%;
+}
+
+.About {
     margin: 0 0 15% 2%;
-    float: left;
+    display: flex;
+}
+.content{
+    width: 50%;
 }
 .intro{
+    text-align: justify;
     margin: 5% 5% 0% 0%;
     font-family: 'Libre Baskerville', serif;
-    
 }
