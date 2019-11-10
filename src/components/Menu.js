@@ -12,24 +12,23 @@ class Menu extends React.Component {
       return (
         
         <div className="Menu">
+          <div className="name"><h1> Brenda Vielmas </h1>
+          </div>
+          <div className="hexagon">
             <div className='one'>
-              <div className='otherDiv'></div>
-              <div className='aboutDiv'></div>
-              <Link to="/About"><div className='aboutDiv'><h1 className='componentName'>About</h1></div></Link>
-              <div className='otherDiv'></div>
-            </div>
-            <div className='one'>
-              <div className='spaceDiv'></div>
-              <Link to="/Skills"><div className='skillsDiv'><h1 className='componentName'>Skills</h1></div></Link>
-              <div className='aboutDiv'><h1 className='componentName'>Brenda Vielmas</h1></div>
-              <Link to="/Projects"><div className='aboutDiv'><h1 className='componentName'>Projects</h1></div></Link>
-            </div>
-            <div className='one'>
-              <div className='otherDiv'></div>
-              <Link to="/Contact"><div className='aboutDiv'><h1 className='componentName'>Contact</h1></div></Link>
-              <div className='aboutDiv'></div>
-              <div className='otherDiv'></div>
-            </div>
+                <div className='aboutDiv'></div>
+                <Link to="/About"><div className='aboutDiv'><h1 className='componentName'>About</h1></div></Link>
+              </div>
+              <div className='two'>
+                <Link to="/Skills"><div className='skillsDiv'><h1 className='componentName'>Skills</h1></div></Link>
+                <div className='aboutDiv'></div>
+                <Link to="/Projects"><div className='aboutDiv'><h1 className='componentName'>Projects</h1></div></Link>
+              </div>
+              <div className='one'>
+                <Link to="/Contact"><div className='aboutDiv'><h1 className='componentName'>Contact</h1></div></Link>
+                <div className='aboutDiv'></div>
+              </div>
+          </div>
         </div>
       )
     }

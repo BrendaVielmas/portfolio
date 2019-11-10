@@ -1,24 +1,37 @@
 .skillsComponent{
     margin-bottom: 7%;
+    position: absolute;
 }
 .skills{
-    width: 50%;
+    float: left;
     font-family: 'Cinzel', serif;
-    margin: 2% 0 0 2%;
-
+    margin: 2% 0 10% 10%;
 }
+.skillsGroup{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 20%;
+     }
+.td{
+    background-color: rgb(255, 188, 2);
+    margin: 0 2.5%;
+    width: 145px;
+    height: 75px;
+}
+.tr{
+    margin-bottom: 100px;
+    display: inline-block;
+    display: flex;
+}
+
 .imgSkills {
     width: 65px;
     height: 55px;
-    margin: 85%;
+    margin: 10%;
+    position: relative;
 }
-.skillsGroup{
-   margin-left: auto;
-   margin-right: auto;
-
-
-    }
 .skillName{
     font-family: 'Libre Baskerville', serif;
+    margin: 0%;
 
 } 

@@ -1,18 +1,36 @@
-h1 {
+.aboutComponent{
+    margin-top: 20px;
+    margin-left: 1%;
+}
+.imgSec{
+    background-color: rgb(255, 188, 2);
+    width: 49%;
+    margin-left: 1%;
+   
+    height: 550px;
+    overflow: hidden;
+    display: inline-block;
+}
+.title {
     font-family: 'Cinzel', serif;
     text-align: justify;
     margin: 3%;
 }
 
-.About {
-    margin: 0 0 15% 2%;
-    display: flex;
+.aboutPhoto{
+    width: 90%;
 }
+
 .content{
-    width: 50%;
+    color: white;
+    width: 49%;
+    height: 550px;
+    float: right;
+    background-color: rgb(59, 59, 59);
+    margin-right: 1%;
 }
 .intro{
     text-align: justify;
-    margin: 5% 5% 0% 0%;
-    font-family: 'Libre Baskerville', serif;
+    margin: 10% 5% 5% 5%;
+    font-family: 'Libre Baskerville', serif;  
 }
