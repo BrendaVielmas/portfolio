@@ -44,3 +44,16 @@
     height: 100px;
     background-color: black;
 }
+@media only screen and (max-width: 767px) {
+    .contactCard{
+        margin: 7px 0 0 0;
+    }
+    .contactCard > p {
+        margin: auto 20px;
+    }
+    .contactLine {
+        bottom: 300px;
+        left: 45px;
+        height: 200px;
+    }
+}

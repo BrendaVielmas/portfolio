@@ -6,7 +6,6 @@ import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
 import Contact from './Contact';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 
@@ -14,14 +13,12 @@ class App extends React.Component {
  
   render(){
     return (
-      <div  className="App">
-        <Router>
-					<Route exact path="/" component={Menu}/>
-			</Router>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
+      <div>
+        <Menu/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
       </div>
       
     )

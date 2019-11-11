@@ -50,17 +50,17 @@ class Menu extends React.Component {
           <div className="name"><h1> Brenda Vielmas </h1></div>
           <div className="hexagon">
             <div className='one'>
-                <div className='aboutDiv'></div>
+                <div className='otherDiv'></div>
                 <a onClick={this.scrollToFunctionAbout}><div className='aboutDiv'><h1 className='componentName'>About</h1></div></a>
               </div>
               <div className='two'>
-                <a  onClick={this.scrollToFunctionSkills}><div className='skillsDiv'><h1 className='componentName'>Skills</h1></div></a>
-                <div className='aboutDiv'></div>
-                <a  onClick={this.scrollToFunctionProjects}><div className='aboutDiv'><h1 className='componentName'>Projects</h1></div></a>
+               <div className="skillsSec"><a onClick={this.scrollToFunctionSkills}><div className='skillsDiv'><h1 className='componentName'>Skills</h1></div></a></div>
+                <div className='otherDiv'></div>
+                <div className="projectsSec"><a onClick={this.scrollToFunctionProjects}><div className='projectsDiv'><h1 className='componentName'>Projects</h1></div></a></div>
               </div>
-              <div className='one'>
-                <a onClick={this.scrollToFunctionContact}><div className='aboutDiv'><h1 className='componentName'>Contact</h1></div></a>
-                <div className='aboutDiv'></div>
+              <div className='three'>
+                <a onClick={this.scrollToFunctionContact}><div className='contactDiv'><h1 className='componentName'>Contact</h1></div></a>
+                <div className='otherDiv'></div>
               </div>
           </div>
         </div>

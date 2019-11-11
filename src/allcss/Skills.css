@@ -12,12 +12,11 @@
 .td{
     background-color: rgb(255, 188, 2);
     margin: 0 2.5%;
-    width: 145px;
+    width: 75px;
     height: 75px;
 }
 .tr{
     margin-bottom: 100px;
-    display: inline-block;
     display: flex;
 }
 
@@ -25,10 +24,25 @@
     width: 55px;
     height: 55px;
     margin: 10%;
-    position: relative;
 }
 .skillName{
     font-family: 'Libre Baskerville', serif;
     margin-top: 2.5%;
-
 } 
+
+@media only screen and (max-width: 767px) {
+    .skillsComponent{
+        width: 90%;
+    }
+    
+    .skillsGroup{
+        margin: 1%;
+    }
+    .skillName{
+        margin-left: 20px;
+    } 
+    .td{
+        width: 105px;
+        height: 75px;
+    }
+ }
