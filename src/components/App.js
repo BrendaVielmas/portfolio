@@ -11,17 +11,19 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 class App extends React.Component {
+ 
   render(){
     return (
-      <Router>
-				<div  className="App">
+      <div  className="App">
+        <Router>
 					<Route exact path="/" component={Menu}/>
-          <Route exact path="/About" component={About}/>
-          <Route exact path="/Skills" component={Skills}/>
-          <Route exact path="/Projects" component={Projects}/>
-          <Route exact path="/Contact" component={Contact}/>
-				</div>
 			</Router>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      </div>
+      
     )
   }
 }

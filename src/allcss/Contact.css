@@ -1,31 +1,46 @@
 .Contact{
     font-family: 'Cinzel', serif;
-    margin: 0 0 0 30px;
+    margin: 150px 0 0 30px;
+    text-align: left;
     border: 0;
-    width: 50%;
+    height: 500px;
+    overflow: hidden;
+}
+.contactLine {
+    background-color: black;
+    position: relative;
+    z-index: -10;
     float: left;
-    
-}
-
-.contactTable{
-    margin-left: 20%;
-    margin-top:20%;
-    display: flex;
-    height: 100px;
-    width: 100px;
-}
-.imgContact {
-    width: 50px;
-    height: 50px;
-    margin: 8px 10px 10px 30px;
-}
-.link{
-    color: black;
+    left: 285px;
+    bottom: 400px;
+    width:10px;
+    height: 300px;
 }
 .contactCard{
     font-family: 'Libre Baskerville', serif;
-    margin: 30% 2% 2% 2%;
     display: flex;
-    height: 30px;
-    
+    width: 100%;
+    margin: 40px 0px 40px 240px;
+   
+}
+.contactCard img {
+    background-color: rgb(255, 188, 2);
+    border-radius:250px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+.contactCard > p {
+    display: inline-block;
+    color: black;
+    margin: auto 40px;
+}
+.contactCard > div {
+    display: inline-block;
+    border-radius:250px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
 }

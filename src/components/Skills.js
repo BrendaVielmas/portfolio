@@ -1,12 +1,12 @@
 import React from 'react';
 import '../allcss/Skills.css';
-import AngularLogo from '../images/Skills/angular.png';
-import CssLogo from '../images/Skills/css.png';
-import FirebaseLogo from '../images/Skills/firebase.png';
+import AngularLogo from '../images/Skills/angular.svg';
+import CssLogo from '../images/Skills/css.svg';
+import FirebaseLogo from '../images/Skills/firebase.svg';
 import GitLogo from '../images/Skills/git.png';
 import HTMLLogo from '../images/Skills/html.png';
-import JavascriptLogo from '../images/Skills/javascript.png';
-import JsonLogo from '../images/Skills/json.png';
+import JavascriptLogo from '../images/Skills/js.jpg';
+import JsonLogo from '../images/Skills/json.svg';
 import MongoDBLogo from '../images/Skills/mongodb.png';
 import NpmLogo from '../images/Skills/npm.png';
 import ReactLogo from '../images/Skills/react.png';
@@ -17,9 +17,9 @@ class Skills extends React.Component {
 
     render(){
       return (
-        <div className="skillsComponent">
+        <div className="skillsComponent" id="skillsSection">
             <h1 className="skills">skills</h1>
-            <table className="skillsGroup" >
+            <div className="skillsGroup" >
                 <div className="tr">
                   <div className="td"><img className="imgSkills" src={AngularLogo}/></div><p className="skillName">Angular</p>
                   <div className="td"><img className="imgSkills" src={CssLogo}/></div><p className="skillName">Css</p>
@@ -35,7 +35,7 @@ class Skills extends React.Component {
                   <div className="td"><img className="imgSkills" src={ReactLogo}/></div><p className="skillName">React</p>
                 </div>
 
-            </table>
+            </div>
 
 
         </div>

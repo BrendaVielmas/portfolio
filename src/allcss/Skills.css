@@ -1,16 +1,13 @@
 .skillsComponent{
-    margin-bottom: 7%;
-    position: absolute;
+    margin: 150px 0 150px 30px;
 }
 .skills{
-    float: left;
+    text-align: left;
     font-family: 'Cinzel', serif;
-    margin: 2% 0 10% 10%;
 }
 .skillsGroup{
     position: relative;
-    margin-left: 10%;
-    margin-top: 20%;
+    margin: 2% 8%;
      }
 .td{
     background-color: rgb(255, 188, 2);
@@ -25,13 +22,13 @@
 }
 
 .imgSkills {
-    width: 65px;
+    width: 55px;
     height: 55px;
     margin: 10%;
     position: relative;
 }
 .skillName{
     font-family: 'Libre Baskerville', serif;
-    margin: 0%;
+    margin-top: 2.5%;
 
 } 
