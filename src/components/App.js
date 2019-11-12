@@ -8,7 +8,6 @@ import Projects from './Projects';
 import Contact from './Contact';
 
 
-
 class App extends React.Component {
  
   render(){

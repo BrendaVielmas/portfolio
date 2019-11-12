@@ -17,7 +17,7 @@
 .name{
   font-family: 'Arial', sans-serif;
   float: left;
-  color: rgb(228, 157, 5);
+  color: rgb(31, 27, 20);
   font-size: 30px;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
@@ -44,8 +44,12 @@
 .visibleDiv, .otherDiv {
   width: 250px;
   height: 250px;
-  background-color: rgb(49, 49, 49);
+  background-color: rgb(46, 45, 42);
   margin: 5px 2px 0px 5px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.hexagonShape{
+  
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .componentName{
@@ -54,6 +58,12 @@
   display:inline-block;
   font-size: 14px;
 }
+.wrap{
+  text-align: center;
+  margin-top: 20%;
+  color: rgb(255, 255, 255);
+}
+
 
 @media only screen and (max-width: 767px) { 
  
