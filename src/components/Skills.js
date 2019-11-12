@@ -18,26 +18,19 @@ class Skills extends React.Component {
     render(){
       return (
         <div className="skillsComponent" id="skillsSection">
-            <h1 className="skills">skills</h1>
-            <div className="skillsGroup" >
-                <div className="tr">
-                  <div className="td"><img className="imgSkills" src={AngularLogo}/></div><p className="skillName">Angular</p>
-                  <div className="td"><img className="imgSkills" src={CssLogo}/></div><p className="skillName">Css</p>
-                  <div className="td"><img className="imgSkills" src={FirebaseLogo}/></div><p className="skillName">Firebase</p>
-                  <div className="td"><img className="imgSkills" src={GitLogo}/></div><p className="skillName">Git</p>
-                  <div className="td"><img className="imgSkills" src={HTMLLogo}/></div><p className="skillName">Html</p>
-                </div>
-                <div className="tr">
-                  <div className="td"><img className="imgSkills" src={JavascriptLogo}/></div><p className="skillName">Javascript</p>
-                  <div className="td"><img className="imgSkills" src={JsonLogo}/></div><p className="skillName">Json</p>
-                  <div className="td"><img className="imgSkills" src={MongoDBLogo}/></div><p className="skillName">MongoDB</p>
-                  <div className="td"><img className="imgSkills" src={NpmLogo}/></div><p className="skillName">Npm</p>
-                  <div className="td"><img className="imgSkills" src={ReactLogo}/></div><p className="skillName">React</p>
-                </div>
-
-            </div>
-
-
+          <h1>skills</h1>
+          <div className="listSkills">
+            <div className="skill"><img src={AngularLogo}/><p >Angular</p></div>
+            <div className="skill"><img src={CssLogo}/><p >Css</p></div>
+            <div className="skill"><img src={FirebaseLogo}/><p >Firebase</p></div>
+            <div className="skill"><img src={GitLogo}/><p >Git</p></div>
+            <div className="skill"><img src={HTMLLogo}/><p >Html</p></div>
+            <div className="skill"><img src={JavascriptLogo}/><p >Javascript</p></div>
+            <div className="skill"><img src={JsonLogo}/><p >Json</p></div>
+            <div className="skill"><img src={MongoDBLogo}/><p >MongoDB</p></div>
+            <div className="skill"><img src={NpmLogo}/><p >Npm</p></div>
+            <div className="skill"><img src={ReactLogo}/><p >React</p></div>
+          </div>
         </div>
       )
     }

@@ -25,20 +25,23 @@
   
 }
 .hexagon{
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   margin-left: 280px;
+  width: max-content;
+  justify-content: center;
 }
 .one, .three{
   display: flex;
   height: 190px;
   margin-left: 130px;
+  width: 100%;
 }
 .two{
   display: flex;
   height: 190px;
+  width: 100%;
 }
-.aboutDiv, .skillsDiv, .projectsDiv, .contactDiv, .otherDiv {
+.visibleDiv, .otherDiv {
   width: 250px;
   height: 250px;
   background-color: rgb(49, 49, 49);
@@ -55,32 +58,35 @@
 @media only screen and (max-width: 767px) { 
  
   .hexagon{
-    margin: 20px 0 0 160px;
+    margin: 0 0 0 60px;
     display: block;
   }
   .otherDiv{
     display: none;
   }
+  .one, .three{
+    margin-left: 30px;
+    height: 120px;
+  }
   .two{
-    display: inline-block;
+    display: block;
+    height: 230px;
   }
   .skillsSec{
-    margin-left: 280px;
-    height: 215px;
+    margin-left: 110px;
+    height: 115px;
   }
+  
   .projectsSec{
-    margin-right: 100px;
+    margin-left: 30px;
+  }
+  
+  .visibleDiv, .otherDiv {
+    width: 150px;
+    height: 150px;
   }
   .contactDiv{
-    margin-left: 180px;
-  }
-  .one, .three{
-    margin-left: 100px;
-    height: 180px;
-  }
-  .aboutDiv, .skillsDiv, .projectsDiv, .contactDiv, .otherDiv {
-    width: 250px;
-    height: 250px;
+    margin-left: 95px;
   }
   .name > h1{
     margin: 0px;

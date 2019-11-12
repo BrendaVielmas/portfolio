@@ -50,6 +50,7 @@
     }
     .contactCard > p {
         margin: auto 20px;
+        font-size: 14px;
     }
     .contactLine {
         bottom: 300px;

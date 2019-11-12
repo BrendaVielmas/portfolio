@@ -1,47 +1,49 @@
 .skillsComponent{
     margin: 150px 0 150px 30px;
 }
-.skills{
+.skillsComponent > h1{
     text-align: left;
     font-family: 'Cinzel', serif;
 }
-.skillsGroup{
-    position: relative;
-    margin: 2% 8%;
-     }
-.td{
+
+.skill{
     background-color: rgb(255, 188, 2);
-    margin: 0 2.5%;
+    margin: 3% 2.5%;
     width: 75px;
     height: 75px;
+    display: inline-block;
 }
-.tr{
+.listSkills{
     margin-bottom: 100px;
-    display: flex;
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 2% 8%;
+
 }
 
-.imgSkills {
+.skill > img{
     width: 55px;
     height: 55px;
     margin: 10%;
 }
-.skillName{
+.skill > p{
     font-family: 'Libre Baskerville', serif;
-    margin-top: 2.5%;
+    margin: 10% 2.5%;
 } 
 
 @media only screen and (max-width: 767px) {
     .skillsComponent{
         width: 90%;
     }
-    
-    .skillsGroup{
+    .listSkills{
+        display: block;
         margin: 1%;
     }
-    .skillName{
+    .skill > p{
         margin-left: 20px;
     } 
-    .td{
+    .skill{
         width: 105px;
         height: 75px;
     }
