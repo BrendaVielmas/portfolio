@@ -5,7 +5,7 @@
 }
 .Menu > img { 
   width: 50px;
-  height: 50px;
+  height:50px;
   right: 5px;
   position: fixed;
   z-index: 100;
@@ -13,6 +13,12 @@
 }
 .invisible {
   display: none;
+  width: 50px;
+  height: 50px;
+  right: 5px;
+  position: fixed;
+  z-index: 100;
+  overflow: scroll;
 }
 .name{
   font-family: 'Arial', sans-serif;
@@ -24,9 +30,9 @@
   height: 500px;
   
 }
-.hexagon{
+.hexagonsSec{
   display: block;
-  margin-left: 280px;
+  margin-left: 20%;
   width: max-content;
   justify-content: center;
 }
@@ -44,14 +50,11 @@
 .visibleDiv, .otherDiv {
   width: 250px;
   height: 250px;
-  background-color: rgb(46, 45, 42);
+  background-color:rgb(54, 54, 54);
   margin: 5px 2px 0px 5px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
-.hexagonShape{
-  
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
+
 .componentName{
   color: white;
   line-height: 200px;
@@ -64,26 +67,120 @@
   color: rgb(255, 255, 255);
 }
 
+.slider {
+  width: 95%;
+  height: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+.slider > figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+  opacity:0;
+}
+.slider:hover figure{
+  transition: opacity .5s;
+  opacity: 1;
+}
+
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) { 
+  .otherDiv{
+    display: none;
+  }
+  .slider{
+    display: none;
+  }
+  .visibleDiv{
+    background-color:rgb(248, 215, 26);
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1024px) { 
+  .slider{
+    display: none;
+  }
+  .visibleDiv{
+    background-color:rgb(248, 215, 26);
+  }
+}
 
 @media only screen and (max-width: 767px) { 
- 
-  .hexagon{
-    margin: 0 0 0 60px;
+  .slider{
+    display: none;
+  }
+  .hexagonsSec{
     display: block;
+    margin-left: 16%;
   }
   .otherDiv{
     display: none;
   }
-  .one, .three{
+  .one{
     margin-left: 30px;
     height: 120px;
+    width: 150px;
+  }
+  .three{
+    margin-left: 110px;
+    margin-top: 5px;
+    width: 150px;
   }
   .two{
     display: block;
     height: 230px;
   }
   .skillsSec{
-    margin-left: 110px;
+    margin-left: 105px;
     height: 115px;
   }
   
@@ -91,17 +188,18 @@
     margin-left: 30px;
   }
   
-  .visibleDiv, .otherDiv {
+  .visibleDiv {
     width: 150px;
     height: 150px;
-  }
-  .contactDiv{
-    margin-left: 95px;
+    background-color:rgb(248, 215, 26);
   }
   .name > h1{
     margin: 0px;
   }
   .Menu { 
     height: 650px;
+  }
+  .Menu > img { 
+    height: 7%;
   }
 }

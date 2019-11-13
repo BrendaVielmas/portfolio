@@ -1,6 +1,7 @@
 .aboutComponent{
     display: block;
     width: 100%;
+    justify-content: center;
 }
 .imgSec{
     background-color: rgb(255, 188, 2);
