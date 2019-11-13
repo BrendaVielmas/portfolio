@@ -4442,9 +4442,7 @@
   transform: rotateX(0);
 }
 @media only screen and (min-width: 767px){ 
-  .info-back > p{
-    display: none;
-  }
+  
   .ih-item.circle.effect13.from_left_and_right .info h3 {
     -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -4472,10 +4470,13 @@
     margin-top: 20%;
   }
 }
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width:1024px) {
   .info-back > p{
     display: none;
   }
+}
+@media only screen and (max-width: 767px) { 
+  
   .ih-item.circle.effect13.from_left_and_right .info h3 {
     -webkit-transform: translateX(0%);
     -moz-transform: translateX(0%);
@@ -4503,3 +4504,8 @@
     margin: 0;
   }
 }
+
+
+
+
+

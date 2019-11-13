@@ -14,9 +14,9 @@ class Contact extends React.Component {
      
         <div className="Contact" id="contactSection">
           <h1>contact</h1>
-          <div className='contactCard'><div><img src={GithubLogo}/></div><p>github.com/BrendaVielmas</p></div>
-          <div className='contactCard'><div><img src={GmailLogo}/></div><p>bren@vielmas.com</p></div>
-          <div className='contactCard'><div><img src={LinkedInLogo}/></div><p>linkedin.com/in/brendavielmas</p></div>
+          <div className='contactCard'><div><a href="https://github.com/BrendaVielmas"><img src={GithubLogo}/></a></div></div>
+          <div className='contactCard'><div><a href="mailto:bren@vielmas.com"><img src={GmailLogo}/></a></div></div>
+          <div className='contactCard'><div><a href="https://linkedin.com/in/brendavielmas"><img src={LinkedInLogo}/></a></div></div>
           <div className='contactLine' />
         </div>
          
