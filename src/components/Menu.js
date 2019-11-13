@@ -72,7 +72,7 @@ class Menu extends React.Component {
               </div>
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                 <a href="#" onClick={this.scrollToFunctionAbout} >
-                <div class="img">About
+                <div class="img">
                 <div className="slider">
                   <figure>
                     <img src={slider1} alt=""></img>
@@ -113,7 +113,7 @@ class Menu extends React.Component {
               <div className="skillsSec">
                 <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                   <a href="#" onClick={this.scrollToFunctionSkills}>
-                  <div class="img">Skills
+                  <div class="img">
                     <div className="slider">
                     <figure>
                         <img src={slider2} alt=""></img>
@@ -161,7 +161,7 @@ class Menu extends React.Component {
               <div className="projectsSec">
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                     <a href="#" onClick={this.scrollToFunctionProjects}>
-                    <div class="img">Projects
+                    <div class="img">
                       <div className="slider">
                       <figure>
                           <img src={slider3} alt=""></img>
@@ -203,7 +203,7 @@ class Menu extends React.Component {
             <div className='three'>
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                 <a href="#" onClick={this.scrollToFunctionContact}>
-                <div class="img">Contact
+                <div class="img">
                   <div className="slider">
                   <figure>
                       <img src={slider4} alt=""></img>

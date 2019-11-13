@@ -1,11 +1,12 @@
 .Contact{
     font-family: 'Cinzel', serif;
-    margin: 150px 0 0 30px;
     text-align: left;
     border: 0;
     height: 500px;
     overflow: hidden;
+    margin: 150px 0 0 30px;
 }
+
 .contactLine {
     background-color: black;
     position: relative;
@@ -45,12 +46,18 @@
     background-color: black;
 }
 @media only screen and (max-width: 767px) {
+    .Contact{
+        margin: 0;
+    }
+    .Contact > h1{
+        margin-left: 10%;
+    }
     .contactCard{
-        margin: 7px 0 0 0;
+        margin: 7px 0 0 7px;
     }
     .contactCard > p {
-        margin: auto 20px;
-        font-size: 14px;
+        margin: auto 2%;
+        font-size: 12px;
     }
     .contactLine {
         bottom: 300px;
