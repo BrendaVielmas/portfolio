@@ -63,9 +63,16 @@ class Menu extends React.Component {
             <div className='one'>
               <div  className='otherDiv'> 
                 <Writer title="Hello" strings={[
-                  'I am a <strong>Front-End</strong>',
-                  'I am a <strong>Woman</strong>',
-                  'I am <strong>Breen</strong>'
+                  'I am <strong>Breen</strong>',
+                  'I am <strong>Creative</strong>',
+                  'I am <strong>Determinated</strong>',
+                  'I am <strong>Friendly</strong>',
+                  'I am <strong>Cool</strong>',
+                  'I am <strong>Honest</strong>',
+                  'I am <strong>Happy</strong>',
+                  'I am <strong>Beautiful</strong>',
+                  'I am <strong>Intelligent</strong>',
+                  'I am <strong>Interesting</strong>'  
                 ]}/>
               </div>
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
@@ -151,9 +158,16 @@ class Menu extends React.Component {
               </div>
               <div className='otherDiv'>
                 <Writer  title="It's" strings={[
-                  'I am a <strong>Woman</strong>',
-                  'I am <strong>Breen<strong>',
-                  'I am a <strong>Front-End</strong>'
+                  'I am <strong>Ambitious</strong>',
+                  'I am <strong>Responsible<strong>',
+                  'I am a <strong>Front-End Developer</strong>',
+                  'I am <strong>Enthusiastic</strong>',
+                  'I am <strong>Optimistic</strong>',
+                  'I am <strong>Brave</strong>',
+                  'I am <strong>Strong</strong>',
+                  'I am <strong>Great</strong>',
+                  'I am <strong>Lovely</strong>',
+                  'I am <strong>Safe</strong>'
                 ]}/>
               </div>
               <div className="projectsSec">
@@ -239,9 +253,16 @@ class Menu extends React.Component {
               </div>
               <div className='otherDiv'>
               <Writer  title="Me" strings={[
-                'I am <strong>Breen</strong>',
-                'I am a <strong>Front-End</strong>',
-                'I am a <strong>Woman</strong>'
+                'I am <strong>Generous</strong>',
+                'I am a <strong>Amazing</strong>',
+                'I am a <strong>Spectacular Woman</strong>',
+                'I am a <strong>Careful</strong>',
+                'I am a <strong>Young</strong>',
+                'I am a <strong>Clear</strong>',
+                'I am a <strong>Helpful</strong>',
+                'I am a <strong>Clever</strong>',
+                'I am a <strong>Kind</strong>',
+                'I am a <strong>Cheerful</strong>'
                 ]}/>
               </div>
             </div>
