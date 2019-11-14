@@ -7,7 +7,6 @@
     background-color: rgb(255, 188, 2);
     width: 49%;
     margin-left: 1%;
-    
     overflow: hidden;
     display: inline-block;
 }
@@ -24,7 +23,7 @@
 
 .content{
     position: relative;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(122, 122, 122);
     color: white;
     display: inline-block;
     width: 49%;

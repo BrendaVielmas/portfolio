@@ -3,7 +3,6 @@ import '../allcss/Menu.css';
 import '../allcss/ihover.css';
 import { scrollTo } from './Functions';
 import btnHome from '../images/topbtn.png';
-import contact from '../images/contactcomp.jpg';
 import slider1 from '../images/slider1.jpg';
 import slider2 from '../images/slider2.jpg';
 import slider3 from '../images/slider3.jpg';
@@ -59,10 +58,9 @@ class Menu extends React.Component {
       return (
         <div id="menuSection" className="Menu">
           <img className="invisible" onClick={this.scrollTopHome} id="imgTop" src={btnHome}/>
-          <div className="name"><h1> Brenda Vielmas </h1></div>
+          <div className="name"><h1> Brenda Vielmas</h1></div>
           <div className="hexagonsSec">
             <div className='one'>
-           
               <div  className='otherDiv'> 
                 <Writer title="Hello" strings={[
                   'I am a <strong>Front-End</strong>',
@@ -103,7 +101,7 @@ class Menu extends React.Component {
                   <div class="info">
                     <div class="info-back"> 
                       <h3>About</h3>
-                      <p>Description goes here</p>
+                      <p>Know me!</p>
                     </div>
                   </div>
                 </a>
@@ -145,7 +143,7 @@ class Menu extends React.Component {
                     <div class="info">
                       <div class="info-back"> 
                         <h3>Skills</h3>
-                        <p>Description goes here</p>
+                        <p>Check my tools!</p>
                       </div>
                     </div>
                   </a>
@@ -193,7 +191,7 @@ class Menu extends React.Component {
                       <div class="info">
                         <div class="info-back"> 
                           <h3>Projects</h3>
-                          <p>Description goes here</p>
+                          <p>See my work!</p>
                         </div>
                       </div>
                     </a>
@@ -234,7 +232,7 @@ class Menu extends React.Component {
                   <div class="info">
                     <div class="info-back"> 
                       <h3>Contact</h3>
-                      <p>Description goes here</p>
+                      <p>Reach on me!</p>
                     </div>
                   </div>
                 </a>
@@ -248,6 +246,7 @@ class Menu extends React.Component {
               </div>
             </div>
           </div>
+          
         </div>
       )
     }

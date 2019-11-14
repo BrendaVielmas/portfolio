@@ -5,29 +5,20 @@
     height: 500px;
     overflow: hidden;
     margin: 150px 0 0 30px;
+    width: 100%;
+}
+.Contact > div {
+    margin-left: 15%;
 }
 
-.contactLine {
-    background-color: black;
-    position: relative;
-    z-index: -10;
-    float: left;
-    left: 48.5%;
-    bottom: 400px;
-    width:10px;
-    height: 300px;
-}
 .contactCard{
     font-family: 'Libre Baskerville', serif;
-    display: flex;
-    width: 100%;
-    margin: 40px 0px 40px 45%;
-   
+    margin: 40px 0px 40px 10%;
+    display: inline-block;
 }
 .contactCard img {
     background-color: rgb(255, 188, 2);
     border-radius:250px;
-    display: inline-block;
     padding: 5px;
     margin: 10px;
     width: 70px;
@@ -35,31 +26,24 @@
 }
 
 .contactCard > div {
-    display: inline-block;
     border-radius:250px;
     width: 100px;
     height: 100px;
     background-color: black;
 }
-@media only screen and (min-width: 1024px) and (max-width: 1024px) { 
-    .contactCard{
-        margin: 7px 0 0 40%;
-    }
-    .contactLine {
-        bottom: 300px;
-        left: 45%;
-        height: 200px;
-    }  
+.contactCard img:hover {
+    background-color: rgb(255, 255, 255);
 }
+.contactCard > div:hover {
+    background-color:  rgb(255, 188, 2);
+}
+
 @media only screen and (min-width: 767px) and (max-width: 1023px) {
-    .contactCard{
-        margin: 7px 0 0 40%;
+    
+    .Contact{
+        width: 90%;
     }
-    .contactLine {
-        bottom: 300px;
-        left: 46%;
-        height: 200px;
-    }
+   
  }
 
 @media only screen and (max-width: 767px) {
@@ -70,11 +54,7 @@
         margin-left: 10%;
     }
     .contactCard{
-        margin: 7px 0 0 35%;
+        margin: 7px 0 0 25%;
     }
-    .contactLine {
-        bottom: 300px;
-        left: 48%;
-        height: 200px;
-    }
+  
 }

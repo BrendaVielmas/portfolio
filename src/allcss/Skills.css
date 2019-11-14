@@ -12,6 +12,7 @@
     width: 75px;
     height: 75px;
     display: inline-block;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .listSkills{
     margin-bottom: 100px;
@@ -24,12 +25,34 @@
 .skill > img{
     width: 55px;
     height: 55px;
-    margin: 10%;
+    margin-top: 13%;
+    margin-left: 13%;
 }
-.skill > p{
+.listSkills > p{
     font-family: 'Libre Baskerville', serif;
     margin: 10% 2.5%;
+    display: none;
 } 
+@media only screen and (min-width: 1024px) and (max-width: 1024px) { 
+    .listSkills > p{
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 14%;
+        border:0;
+    } 
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .listSkills{
+        margin-left: 18%;
+    }
+    .listSkills > p{
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 24%;
+        border:0;
+    } 
+ }
 
 @media only screen and (max-width: 767px) {
     .skillsComponent{
@@ -39,11 +62,14 @@
         display: block;
         margin: 1%;
     }
-    .skill > p{
-        margin-left: 20px;
+    .listSkills > p{
+        margin: 0 0 0 20px;
+        display: inline-block;
+        width: 44%;
+        border:0;
     } 
     .skill{
-        width: 105px;
+        width: 85px;
         height: 75px;
     }
  }

@@ -20,16 +20,16 @@ class Skills extends React.Component {
         <div className="skillsComponent" id="skillsSection">
           <h1>skills</h1>
           <div className="listSkills">
-            <div className="skill"><img src={AngularLogo}/><p >Angular</p></div>
-            <div className="skill"><img src={CssLogo}/><p >Css</p></div>
-            <div className="skill"><img src={FirebaseLogo}/><p >Firebase</p></div>
-            <div className="skill"><img src={GitLogo}/><p >Git</p></div>
-            <div className="skill"><img src={HTMLLogo}/><p >Html</p></div>
-            <div className="skill"><img src={JavascriptLogo}/><p >Javascript</p></div>
-            <div className="skill"><img src={JsonLogo}/><p >Json</p></div>
-            <div className="skill"><img src={MongoDBLogo}/><p >MongoDB</p></div>
-            <div className="skill"><img src={NpmLogo}/><p >Npm</p></div>
-            <div className="skill"><img src={ReactLogo}/><p >React</p></div>
+            <div className="skill" title="Angular"><img src={AngularLogo}/></div><p>Angular</p>
+            <div className="skill" title="Css"><img src={CssLogo}/></div><p>Css</p>
+            <div className="skill" title="Firebase"><img src={FirebaseLogo}/></div><p>Firebase</p>
+            <div className="skill" title="Git"><img src={GitLogo}/></div><p>Git</p>
+            <div className="skill" title="Html"><img src={HTMLLogo}/></div><p>Html</p>
+            <div className="skill" title="Javascript"><img src={JavascriptLogo}/></div><p>Javascript</p>
+            <div className="skill" title="Json"><img src={JsonLogo}/></div><p>Json</p>
+            <div className="skill" title="MongoDB"><img src={MongoDBLogo}/></div><p>MongoDB</p>
+            <div className="skill" title="NPM"><img src={NpmLogo}/></div><p>Npm</p>
+            <div className="skill" title="React"><img src={ReactLogo}/></div><p >React</p>
           </div>
         </div>
       )

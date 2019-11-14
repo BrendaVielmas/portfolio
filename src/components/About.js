@@ -1,7 +1,5 @@
 import React from 'react';
 import '../allcss/About.css';
-import lax from 'lax.js';
-import ReactDOM from 'react-dom';
 import photo from '../images/profile.jpg';
 
 class About extends React.Component {

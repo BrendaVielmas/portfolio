@@ -4441,6 +4441,10 @@
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
+.ih-item.circle.effect13 .info{
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.253);
+}
 @media only screen and (min-width: 767px){ 
   
   .ih-item.circle.effect13.from_left_and_right .info h3 {
@@ -4453,9 +4457,7 @@
   .ih-item.circle.effect13 .info h3 {
     visibility: visible;
   }
-  .ih-item.circle.effect13 .info{
-    opacity: 1;
-  }
+  
   .img{
     text-align: center;
     line-height: 150px;

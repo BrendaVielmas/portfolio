@@ -1,23 +1,85 @@
 .Projects{
     font-family: 'Cinzel', serif;
-    margin: 0 0 0 30px;
+    margin: 30px 0 0 30px;
     text-align: left;
+    height: 50%;
 }
-.tableOfProjects{
+.showHover{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
     text-align: center;
+    margin-bottom: 36%;
+    margin-left: 28px;
+    background-color: rgb(255, 188, 2);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);   
 }
-.tvCard{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    width: 230px;
-    height: 220px;
-    border: white;
-    color: white;
+#projectOne, #projectTwo, #projectThree, #projectFour{
+    display: none;
 }
-.tvCardBtn{
-    border: white;
-    color: white;
-    padding: 0;
-    margin: 40px;
+.hexagon {
+    position: relative;
+    width: 200px; 
+    height: 115.47px;
+    background-color: rgb(53, 53, 53);
+    margin: 57.74px 0;
+  }
+    .hexagon:before, .hexagon:after {
+    content: "";
+    position: absolute;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+  }
+  
+    .hexagon:before {
+    bottom: 100%;
+    border-bottom: 57.74px solid rgb(53, 53, 53);
+  }
+  
+    .hexagon:after {
+    top: 100%;
+    border-top: 57.74px solid rgb(53, 53, 53);
+  } 
+  .flip-container{
+    display: inline-block;
+    margin: 5%;
+    width: 200px; 
+    height: 280px;
+}
+.flip-container:hover{
+cursor: pointer;
+ }
+
+    .flip-container:hover .hexagon {
+    transform: rotateY(180deg);
+    }
+    
+  .front, .back {
+      width: 200px; 
+    height: 115.47px;
+  }
+  
+  .hexagon {
+      transition: 0.6s;
+      transform-style: preserve-3d;
+      position: relative;
+  }
+  .front, .back {
+      backface-visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: antiquewhite;
+      text-align: center;
+  }
+  .front {
+      z-index: 2;
+      transform: rotateY(0deg);
+  }
+  .back {
+      transform: rotateY(180deg);
+  }
+  .back > h1 {
+    font-size: 16px;
+    margin-top: 0;
 }
