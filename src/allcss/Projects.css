@@ -5,6 +5,11 @@
     height: 50%;
     color: rgb(255, 188, 2);
 }
+.Projects > div {
+  text-align: center;
+  margin-left: -100px;
+  margin-right: 100px;
+}
 .showHover{
     display: inline-block;
     width: 60px;
@@ -28,6 +33,7 @@
     margin: 57.74px 0;
   }
     .hexagon:before, .hexagon:after {
+    left: 0;
     content: "";
     position: absolute;
     border-left: 150px solid transparent;
@@ -49,6 +55,7 @@
     margin-left: 10%;
     width: 200px; 
     height: 290px;
+    margin-top: 10%;
 }
 .flip-container:hover{
 cursor: pointer;

@@ -167,7 +167,7 @@ class Menu extends React.Component {
                   'I am <strong>Strong</strong>',
                   'I am <strong>Great</strong>',
                   'I am <strong>Lovely</strong>',
-                  'I am <strong>Safe</strong>'
+                  'I am <strong>Agile</strong>'
                 ]}/>
               </div>
               <div className="projectsSec">
