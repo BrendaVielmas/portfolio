@@ -267,7 +267,7 @@ class Menu extends React.Component {
               </div>
             </div>
           </div>
-          
+          <div className="profession"><h1>Front-End Developer</h1></div>
         </div>
       )
     }

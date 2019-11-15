@@ -5,10 +5,11 @@
 }
 .imgSec{
     background-color: rgb(255, 188, 2);
-    width: 49%;
-    margin-left: 1%;
+    width: 45%;
+    margin: 1%;
     overflow: hidden;
     display: inline-block;
+   
 }
 .imgSec > h1 {
     font-family: 'Cinzel', serif;
@@ -22,13 +23,12 @@
 }
 
 .content{
-    position: relative;
     background-color: rgb(122, 122, 122);
     color: white;
     display: inline-block;
-    width: 49%;
-    height: 550px;
-    margin-right: 1%;
+    width: 48%;
+    margin: 1%;
+    bottom: 100px;
 }
 .content > p {
     text-align: justify;
@@ -36,6 +36,83 @@
     font-family: 'Libre Baskerville', serif;  
 }
 
+.wrapper {
+    position: relative;
+    perspective: 40em;
+    display: grid;
+    transform-style: preserve-3d;
+    width: 20%;
+    margin-left: 20%;
+  }
+  
+  .card {
+    grid-area: 1 / 1;
+    height: 25px;
+    width: 50px;
+    transform: translateX(10px) rotateY(25deg) rotateX(10deg);
+    background: rgba(249, 198, 26, 0.88);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+  }
+  .card > span{
+    font-size: 20px;
+  }
+ .card > h1 {
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 20%;
+  }
+  
+  .card .enclosed {
+    background: rgb(255, 255, 255);
+    line-height: 1;
+    color: rgba(249, 198, 26, 1);
+    display: inline-block;
+    transform: translate(-1px, 1px) scale(0.75);
+    
+  }
+  a:link {color:#000000;}
+  a:visited {color:#000000;}
+    a:active {color:#000000;}
+    a:hover {color:#000000;}
+  
+  .wrapper:before {
+    --bw: 9px;
+    grid-area: 1 / 1;
+    content: '';
+    backface-visibility: hidden;
+    height: 83px;
+    width: 107px;
+    margin-top: calc(-1 * var(--bw));
+    margin-left: calc(-.8 * var(--bw));
+    background: transparent;
+    transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
+    pointer-events: none;
+    border: var(--bw) solid rgb(255, 255, 255);
+    box-sizing: content-box;
+  }
+  
+  
+  .wrapper:hover > div,
+  .wrapper:hover:before {
+    transform: none;
+  }
+  
+  
+  .wrapper > div,
+  .wrapper:before {
+    will-change: transform;
+    transition: .3s transform cubic-bezier(.25,.46,.45,1);
+  }
+  
+  
 @media only screen and (max-width: 767px) { 
     .imgSec {
         width: 100%;

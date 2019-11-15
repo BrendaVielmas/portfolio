@@ -25,6 +25,13 @@ class About extends React.Component {
             </p>
             <p>So, check my work!</p>
           </div>
+          <div class="wrapper">
+            <div class="card">
+              <h1>
+                <span class="enclosed"><a href="https://linkedin.com/in/brendavielmas">More about</a></span><a  href="https://linkedin.com/in/brendavielmas"> Me</a>
+              </h1>
+            </div>
+          </div>
         </div>
         
       )
