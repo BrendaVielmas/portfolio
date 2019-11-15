@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "127ec30eb4fca6b86a511ea925423d58",
+    "revision": "54f520aecc1214319e43ea91a69d1182",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b920b418313de8018a9b",
-    "url": "/portfolio/static/css/main.a449b096.chunk.css"
+    "revision": "33582a4b07fa3949cebb",
+    "url": "/portfolio/static/css/main.2c4c5121.chunk.css"
   },
   {
     "revision": "69481b3dddb7c099ac67",
     "url": "/portfolio/static/js/2.027100f3.chunk.js"
   },
   {
-    "revision": "b920b418313de8018a9b",
-    "url": "/portfolio/static/js/main.88037543.chunk.js"
+    "revision": "33582a4b07fa3949cebb",
+    "url": "/portfolio/static/js/main.66cc6534.chunk.js"
   },
   {
     "revision": "a46b3fd8f34f8691f45e",
@@ -56,24 +56,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/react.206f1248.png"
   },
   {
-    "revision": "bd5b210258cbedf734771b7ee0518664",
-    "url": "/portfolio/static/media/slider1.bd5b2102.jpg"
+    "revision": "15cf868ef8aedfda8dff51cf53d0b791",
+    "url": "/portfolio/static/media/slider1.15cf868e.jpg"
   },
   {
-    "revision": "f1d6788b16b9ec868cd1ff7aafde7e3e",
-    "url": "/portfolio/static/media/slider2.f1d6788b.jpg"
+    "revision": "17be2d63644bc903aefb220fd2e86b8c",
+    "url": "/portfolio/static/media/slider2.17be2d63.jpg"
   },
   {
-    "revision": "8a047c5ee54237793a0004b36a7461a1",
-    "url": "/portfolio/static/media/slider3.8a047c5e.jpg"
+    "revision": "42d29587390809da857ccc3ec709588c",
+    "url": "/portfolio/static/media/slider3.42d29587.jpg"
   },
   {
-    "revision": "12bc3e46ad929318ca67b48e429e7728",
-    "url": "/portfolio/static/media/slider5.12bc3e46.jpg"
+    "revision": "77b94b4f27ba62750fb6f4c65315f837",
+    "url": "/portfolio/static/media/slider4.77b94b4f.jpg"
   },
   {
-    "revision": "64fc0435c63321139e2d1e51668bf5cf",
-    "url": "/portfolio/static/media/slider8.64fc0435.jpg"
+    "revision": "170d98df1ebd27e8a3477047d78f0860",
+    "url": "/portfolio/static/media/slider5.170d98df.jpg"
+  },
+  {
+    "revision": "69af02297d902c0f28a7cee4fddc2a27",
+    "url": "/portfolio/static/media/slider6.69af0229.jpg"
+  },
+  {
+    "revision": "63fa39d9f8dbca35e95fd82299bc78da",
+    "url": "/portfolio/static/media/slider7.63fa39d9.jpg"
+  },
+  {
+    "revision": "fbee03841f163603a94552563c0df576",
+    "url": "/portfolio/static/media/slider8.fbee0384.jpg"
   },
   {
     "revision": "1d95756a39d071c3bc52cbbd046b3bea",
