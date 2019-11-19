@@ -25,7 +25,6 @@
     width: 55px;
     height: 55px;
     margin-top: 20%;
-    margin-left: 22%;
 }
 .listSkills > p{
     font-family: 'Libre Baskerville', serif;
@@ -76,6 +75,5 @@
     }
     .skill > img{
         margin-top: 15%;
-    margin-left: 16%;
     }
  }
