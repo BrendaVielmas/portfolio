@@ -3,14 +3,6 @@ import '../allcss/Menu.css';
 import '../allcss/ihover.css';
 import { scrollTo } from './Functions';
 import btnHome from '../images/topbtn.png';
-import slider1 from '../images/slider1.jpg';
-import slider2 from '../images/slider2.jpg';
-import slider3 from '../images/slider3.jpg';
-import slider4 from '../images/slider4.jpg';
-import slider5 from '../images/slider5.jpg';
-import slider6 from '../images/slider6.jpg';
-import slider7 from '../images/slider7.jpg';
-import slider8 from '../images/slider8.jpg';
 import Writer from './Writer';
 
 
@@ -78,32 +70,7 @@ class Menu extends React.Component {
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                 <a href="#" onClick={this.scrollToFunctionAbout} >
                 <div class="img">
-                <div className="slider">
-                  <figure>
-                    <img src={slider1} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider2} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider3} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider4} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider5} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider6} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider7} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider8} alt=""></img>
-                  </figure>
-                </div>
+                
                 </div>
                   <div class="info">
                     <div class="info-back"> 
@@ -119,33 +86,7 @@ class Menu extends React.Component {
                 <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                   <a href="#" onClick={this.scrollToFunctionSkills}>
                   <div class="img">
-                    <div className="slider">
-                    <figure>
-                        <img src={slider2} alt=""></img>
-                      </figure>
-                      <figure>
-                        <img src={slider3} alt=""></img>
-                      </figure>
-                      <figure>
-                        <img src={slider4} alt=""></img>
-                      </figure>
-                      <figure>
-                        <img src={slider5} alt=""></img>
-                      </figure>
-                      <figure>
-                        <img src={slider6} alt=""></img>
-                      </figure>
-                      <figure>
-                        <img src={slider7} alt=""></img>
-                      </figure>
-                      <figure>
-                        <img src={slider8} alt=""></img>
-                      </figure>
-                      <figure>
-                        <img src={slider1} alt=""></img>
-                      </figure>
-                      
-                    </div>
+                   
                   </div>
                     <div class="info">
                       <div class="info-back"> 
@@ -174,33 +115,7 @@ class Menu extends React.Component {
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                     <a href="#" onClick={this.scrollToFunctionProjects}>
                     <div class="img">
-                      <div className="slider">
-                      <figure>
-                          <img src={slider3} alt=""></img>
-                        </figure>
-                        <figure>
-                          <img src={slider4} alt=""></img>
-                        </figure>
-                        <figure>
-                          <img src={slider5} alt=""></img>
-                        </figure>
-                        <figure>
-                          <img src={slider6} alt=""></img>
-                        </figure>
-                        <figure>
-                          <img src={slider7} alt=""></img>
-                        </figure>
-                        <figure>
-                          <img src={slider8} alt=""></img>
-                        </figure>
-                        <figure>
-                          <img src={slider1} alt=""></img>
-                        </figure>
-                        <figure>
-                          <img src={slider2} alt=""></img>
-                        </figure>
-                       
-                      </div>
+                      
                     </div>
                       <div class="info">
                         <div class="info-back"> 
@@ -216,32 +131,7 @@ class Menu extends React.Component {
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                 <a href="#" onClick={this.scrollToFunctionContact}>
                 <div class="img">
-                  <div className="slider">
-                  <figure>
-                      <img src={slider4} alt=""></img>
-                    </figure>
-                    <figure>
-                      <img src={slider5} alt=""></img>
-                    </figure>
-                    <figure>
-                      <img src={slider6} alt=""></img>
-                    </figure>
-                    <figure>
-                      <img src={slider7} alt=""></img>
-                    </figure>
-                    <figure>
-                      <img src={slider8} alt=""></img>
-                    </figure>
-                    <figure>
-                    <img src={slider1} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider2} alt=""></img>
-                  </figure>
-                  <figure>
-                    <img src={slider3} alt=""></img>
-                  </figure>
-                  </div>
+                 
                 </div>
                   <div class="info">
                     <div class="info-back"> 

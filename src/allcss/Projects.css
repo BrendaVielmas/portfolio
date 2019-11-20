@@ -31,7 +31,7 @@
     position: relative;
     width: 300px; 
     height: 195.47px;
-    background-color: rgb(53, 53, 53);
+    background-color: rgba(126, 126, 126, 0.7);
     margin: 57.74px 0;
   }
     .hexagon:before, .hexagon:after {
@@ -44,12 +44,12 @@
   
     .hexagon:before {
     bottom: 100%;
-    border-bottom: 77.74px solid rgb(53, 53, 53);
+    border-bottom: 77.74px solid  rgba(126, 126, 126, 0.7);
   }
   
   .hexagon:after {
     top: 100%;
-    border-top: 77.74px solid rgb(53, 53, 53);
+    border-top: 77.74px solid rgba(126, 126, 126, 0.7);
   } 
   .flip-container{
     display: inline-block;
