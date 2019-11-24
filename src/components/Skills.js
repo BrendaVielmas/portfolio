@@ -18,7 +18,7 @@ class Skills extends React.Component {
     render(){
       return (
         <div className="skillsComponent" id="skillsSection">
-          <h1>tools</h1>
+          <h1>Tools</h1>
           <div className="listSkills">
             <div className="skill" title="Angular"><img src={AngularLogo}/></div><p>Angular</p>
             <div className="skill" title="Css"><img src={CssLogo}/></div><p>Css</p>

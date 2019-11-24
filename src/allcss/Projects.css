@@ -1,5 +1,5 @@
 .Projects{
-    font-family: 'Cinzel', serif;
+    font-family:  'Didact Gothic', sans-serif;
     margin: 30px 0 0 30px;
     text-align: left;
     height: 50%;
@@ -10,13 +10,16 @@
   margin-left: -100px;
   margin-right: 100px;
 }
+.Projects > h1 {
+  margin-left: 5%;
+}
 .showHover{
     display: inline-block;
     width: 60px;
     height: 60px;
     text-align: center;
     margin-bottom: 36%;
-    margin-left: 28px;
+    margin-left: 3px;
     background-color: rgb(255, 188, 2);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);   
 }
@@ -86,6 +89,8 @@ cursor: pointer;
   }
   .back {
       transform: rotateY(180deg);
+      padding: 2%;
+      margin-left: -10px;
   }
   .back > h1 {
     font-size: 16px;

@@ -12,9 +12,10 @@
    
 }
 .imgSec > h1 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Didact Gothic', sans-serif;
     text-align: justify;
     margin: 3%;
+    margin-left: 13%;
 }
 
 .imgSec > img{
@@ -33,7 +34,8 @@
 .content > p {
     text-align: justify;
     margin: 10% 5% 5% 5%;
-    font-family: 'Libre Baskerville', serif;  
+    font-family:  'Didact Gothic', sans-serif;
+    font-size: 28px;
 }
 
 .wrapper {

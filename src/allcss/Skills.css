@@ -1,9 +1,12 @@
 .skillsComponent{
     margin: 150px 0 150px 30px;
     text-align: left;
-    font-family: 'Cinzel', serif;
+    font-family: 'Didact Gothic', sans-serif;
     color: rgb(255, 188, 2);
 }
+.skillsComponent > h1 {
+    margin-left: 5%;
+  }
 
 .skill{
     background-color: rgb(255, 188, 2);
@@ -27,7 +30,7 @@
     margin-top: 20%;
 }
 .listSkills > p{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Didact Gothic', sans-serif;
     margin: 10% 2.5%;
     display: none;
 } 
