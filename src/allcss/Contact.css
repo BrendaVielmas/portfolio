@@ -1,5 +1,5 @@
 .Contact{
-    font-family: 'Cinzel', serif;
+    font-family: 'Didact Gothic', sans-serif;
     text-align: left;
     border: 0;
     height: 500px;
@@ -11,9 +11,12 @@
 .Contact > div {
     margin-left: 15%;
 }
+.Contact > h1 {
+    margin-left: 5%;
+  }
 
 .contactCard{
-    font-family: 'Libre Baskerville', serif;
+    font-family:  'Didact Gothic', sans-serif;
     margin: 40px 0px 40px 10%;
     display: inline-block;
 }

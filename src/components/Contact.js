@@ -12,7 +12,7 @@ class Contact extends React.Component {
       return (
      
         <div className="Contact" id="contactSection">
-          <h1>contact</h1>
+          <h1>Contact</h1>
           <div>
             <div className='contactCard'><div><a href="https://github.com/BrendaVielmas"><img src={GithubLogo}/></a></div></div>
             <div className='contactCard'><div><a href="mailto:bren@vielmas.com"><img src={GmailLogo}/></a></div></div>
