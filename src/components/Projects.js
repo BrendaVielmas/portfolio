@@ -41,7 +41,7 @@ class Projects extends React.Component {
                 <div className="front"><img src={Neko}></img></div>
                 <div className="back"><h1>NEKOFFEE</h1> Are you ready to order? A sistem to do request in a Restaurant.
                   <div>
-                    <div className="showHover"><a href="https://gdl003-burger-queen-front-end.brendavielmas.now.sh/"><p>Demo</p></a></div>
+                    <div className="showHover"><a href="https://jovial-keller-ef5c8b.netlify.com/"><p>Demo</p></a></div>
                     <div className="showHover"><a href="https://github.com/BrendaVielmas/GDL003-Burger-Queen-Back-End"><p>Github</p></a></div>
                   </div>
                 </div>
