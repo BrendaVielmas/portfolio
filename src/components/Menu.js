@@ -148,7 +148,7 @@ class Menu extends React.Component {
                 'I am a <strong>Spectacular Woman</strong>',
                 'I am a <strong>Careful</strong>',
                 'I am a <strong>Young</strong>',
-                'I am a <strong>Clear</strong>',
+                'I am a <strong>Smart</strong>',
                 'I am a <strong>Helpful</strong>',
                 'I am a <strong>Clever</strong>',
                 'I am a <strong>Kind</strong>',
