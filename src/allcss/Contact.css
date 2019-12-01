@@ -1,5 +1,6 @@
 .Contact{
-    font-family: 'Didact Gothic', sans-serif;
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
     text-align: left;
     border: 0;
     height: 500px;
@@ -28,18 +29,16 @@
     width: 70px;
     height: 70px;
 }
-
 .contactCard > div {
     border-radius:250px;
     width: 100px;
     height: 100px;
     background-color: black;
 }
-.contactCard img:hover {
-    background-color: rgb(255, 255, 255);
-}
+
 .contactCard > div:hover {
-    background-color:  rgb(255, 188, 2);
+    background-color:  rgba(155, 155, 155, 0.39);
+    box-shadow: 0 0 15px rgb(168, 168, 168);
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px) {

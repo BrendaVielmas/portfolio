@@ -24,7 +24,7 @@
 .name{
   font-family: 'Arial', sans-serif;
   float: left;
-  color: rgb(253, 172, 32);
+  color:rgba(255, 188, 2, 0.747);
   font-size: 30px;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
@@ -32,7 +32,7 @@
 }
 .profession{
   font-family: 'Arial', sans-serif;
-  color: rgb(253, 172, 32);
+  color: rgba(255, 188, 2, 0.747);
   font-size: 30px;
   height: 10%;
   width: 50%;
@@ -59,7 +59,7 @@
 .visibleDiv, .otherDiv {
   width: 250px;
   height: 250px;
-  background-color:rgba(255, 196, 0, 0.712);
+  background-color:rgba(255, 188, 2, 0.747);
   margin: 5px 2px 0px 5px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
@@ -163,7 +163,7 @@ figure:nth-child(8) {
     display: none;
   }
   .visibleDiv{
-    background-color:rgb(253, 172, 32);
+    background-color:rgba(255, 188, 2, 0.747);
   }
   .Menu { 
     height: 1100px;
@@ -174,7 +174,6 @@ figure:nth-child(8) {
     width:80%;
   }
  .two{
-   margin-left: 1%;
    width: 10%;
  }
 }
@@ -217,7 +216,7 @@ figure:nth-child(8) {
   .visibleDiv {
     width: 150px;
     height: 150px;
-    background-color:rgb(253, 172, 32);
+    background-color: rgba(255, 188, 2, 0.747);
   }
   .name > h1{
     margin: 0px;

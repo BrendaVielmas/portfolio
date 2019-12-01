@@ -50,10 +50,10 @@ class Menu extends React.Component {
       return (
         <div id="menuSection" className="Menu">
           <img className="invisible" onClick={this.scrollTopHome} id="imgTop" src={btnHome}/>
-          <div className="name"><h1> Brenda Vielmas</h1></div>
-          <div className="hexagonsSec">
+          <div className="name"><h1 data-aos='fade-left'> Brenda Vielmas</h1></div>
+          <div  className="hexagonsSec">
             <div className='one'>
-              <div  className='otherDiv'> 
+              <div data-aos='zoom-in' className='otherDiv'> 
                 <Writer title="Hello" strings={[
                   'I am <strong>Breen</strong>',
                   'I am <strong>Creative</strong>',
@@ -67,7 +67,7 @@ class Menu extends React.Component {
                   'I am <strong>Interesting</strong>'  
                 ]}/>
               </div>
-              <div class="ih-item circle visibleDiv effect13 from_left_and_right">
+              <div data-aos='zoom-in' class="ih-item circle visibleDiv effect13 from_left_and_right">
                 <a href="#" onClick={this.scrollToFunctionAbout} >
                 <div class="img">
                 
@@ -83,21 +83,21 @@ class Menu extends React.Component {
             </div>
             <div className='two'>
               <div className="skillsSec">
-                <div class="ih-item circle visibleDiv effect13 from_left_and_right">
+                <div data-aos='zoom-in' class="ih-item circle visibleDiv effect13 from_left_and_right">
                   <a href="#" onClick={this.scrollToFunctionSkills}>
                   <div class="img">
                    
                   </div>
                     <div class="info">
                       <div class="info-back"> 
-                        <h3>Skills</h3>
+                        <h3>Tools</h3>
                         <p>Check my tools!</p>
                       </div>
                     </div>
                   </a>
                 </div>
               </div>
-              <div className='otherDiv'>
+              <div data-aos='zoom-in' className='otherDiv'>
                 <Writer  title="It's" strings={[
                   'I am <strong>Ambitious</strong>',
                   'I am <strong>Responsible<strong>',
@@ -111,7 +111,7 @@ class Menu extends React.Component {
                   'I am <strong>Agile</strong>'
                 ]}/>
               </div>
-              <div className="projectsSec">
+              <div data-aos='zoom-in' className="projectsSec">
               <div class="ih-item circle visibleDiv effect13 from_left_and_right">
                     <a href="#" onClick={this.scrollToFunctionProjects}>
                     <div class="img">
@@ -128,7 +128,7 @@ class Menu extends React.Component {
                 </div>
             </div>
             <div className='three'>
-              <div class="ih-item circle visibleDiv effect13 from_left_and_right">
+              <div data-aos='zoom-in' class="ih-item circle visibleDiv effect13 from_left_and_right">
                 <a href="#" onClick={this.scrollToFunctionContact}>
                 <div class="img">
                  
@@ -141,7 +141,7 @@ class Menu extends React.Component {
                   </div>
                 </a>
               </div>
-              <div className='otherDiv'>
+              <div data-aos='zoom-in' className='otherDiv'>
               <Writer  title="Me" strings={[
                 'I am <strong>Generous</strong>',
                 'I am a <strong>Amazing</strong>',
@@ -157,7 +157,7 @@ class Menu extends React.Component {
               </div>
             </div>
           </div>
-          <div className="profession"><h1>Front-End Developer</h1></div>
+          <div data-aos='fade-up' className="profession"><h1>Front-End Developer</h1></div>
         </div>
       )
     }

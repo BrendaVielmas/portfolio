@@ -12,11 +12,11 @@ class Contact extends React.Component {
       return (
      
         <div className="Contact" id="contactSection">
-          <h1>Contact</h1>
+          <h1 data-aos='fade-right'>Contact</h1>
           <div>
-            <div className='contactCard'><div><a href="https://github.com/BrendaVielmas"><img src={GithubLogo}/></a></div></div>
-            <div className='contactCard'><div><a href="mailto:bren@vielmas.com"><img src={GmailLogo}/></a></div></div>
-            <div className='contactCard'><div><a href="https://linkedin.com/in/brendavielmas"><img src={LinkedInLogo}/></a></div></div>
+            <div data-aos='zoom-out-left' className='contactCard'><div><a href="https://github.com/BrendaVielmas"><img src={GithubLogo}/></a></div></div>
+            <div data-aos='zoom-in' className='contactCard'><div><a href="mailto:bren@vielmas.com"><img src={GmailLogo}/></a></div></div>
+            <div data-aos='zoom-out-right' className='contactCard'><div><a href="https://linkedin.com/in/brendavielmas"><img src={LinkedInLogo}/></a></div></div>
           </div>
           
         </div>

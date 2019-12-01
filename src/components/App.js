@@ -2,10 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../allcss/App.css';
 import Particles from 'react-particles-js';
-
 import Particles2 from './Particles.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class App extends React.Component {
+    constructor(props){
+        super(props);
+    }
+    componentDidMount(){
+        AOS.init({
+            duration : 2000
+        })
+    }
   
   render(){
 

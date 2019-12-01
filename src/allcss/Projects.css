@@ -1,5 +1,6 @@
 .Projects{
-    font-family:  'Didact Gothic', sans-serif;
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
     margin: 30px 0 0 30px;
     text-align: left;
     height: 50%;
@@ -29,13 +30,15 @@
    width: 200px;
 }
 .hexagon {
+  font-family:  'Didact Gothic', sans-serif;
   transition: 0.6s;
   transform-style: preserve-3d;
-    position: relative;
-    width: 300px; 
-    height: 195.47px;
-    background-color: rgba(126, 126, 126, 0.7);
-    margin: 57.74px 0;
+  position: relative;
+  width: 300px; 
+  font-size: 16px;
+  height: 195.47px;
+  background-color:  rgba(122, 122, 122, 0.623);
+  margin: 57.74px 0;
   }
     .hexagon:before, .hexagon:after {
     left: 0;
@@ -47,12 +50,12 @@
   
     .hexagon:before {
     bottom: 100%;
-    border-bottom: 77.74px solid  rgba(126, 126, 126, 0.7);
+    border-bottom: 77.74px solid   rgba(122, 122, 122, 0.623);
   }
   
   .hexagon:after {
     top: 100%;
-    border-top: 77.74px solid rgba(126, 126, 126, 0.7);
+    border-top: 77.74px solid  rgba(122, 122, 122, 0.623);
   } 
   .flip-container{
     display: inline-block;

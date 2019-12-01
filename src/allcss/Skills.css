@@ -1,11 +1,13 @@
 .skillsComponent{
-    margin: 150px 0 150px 30px;
+    margin: 150px 0 200px 30px;
     text-align: left;
-    font-family: 'Didact Gothic', sans-serif;
+    font-size: 24px;
+    font-family: 'Major Mono Display', monospace;
     color: rgb(255, 188, 2);
 }
 .skillsComponent > h1 {
     margin-left: 5%;
+    margin-bottom: 10%;
   }
 
 .skill{
@@ -15,6 +17,7 @@
     height: 95px;
     display: inline-block;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    
 }
 .listSkills{
     margin-bottom: 100px;
